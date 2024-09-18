@@ -1,0 +1,158 @@
+\documentclass[10pt,fleqn]{article} 
+\usepackage[a3paper,landscape,vmargin=1.0cm,hmargin=1.5cm]{geometry} 
+
+\usepackage{amsmath,amsfonts}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{ascmac}
+\usepackage{fancybox}
+\usepackage{tikz}
+\usepackage{amsthm}
+\usepackage{expl3}
+\usepackage{ytableau} 
+
+\usepackage{here}
+\usetikzlibrary{positioning, intersections, calc, arrows.meta,math, decorations.markings}
+
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+\newtheorem*{thm*}{Theorem}
+
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+
+\newtheorem{lem}{Lemma}
+
+% 括弧のサイズを自動調整
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\renewcommand{\[}{\left[}
+\renewcommand{\]}{\right]}
+\renewcommand{\{}{\left\lbrace}
+\renewcommand{\}}{\right\rbrace}
+
+\newcommand{\abs}[1]{\left| #1 \right|} % 絶対値
+
+% 矢印
+\newcommand{\Iff}{\Longleftrightarrow}
+\newcommand{\To}{\Longrightarrow}
+\newcommand{\ShortTo}{\Rightarrow}
+
+% 行列
+\newcommand{\pmat}[1]{\begin{pmatrix} #1 \end{pmatrix}}
+\newcommand{\mat}[1]{\left( \begin{matrix} #1 \end{matrix} \right)}
+
+% 微分
+\ExplSyntaxOn
+\newcommand{\ppartial}[1]
+    {
+        \pd_parse:n { #1 }
+    }
+    \cs_new_protected:Nn \pd_parse:n
+    {
+    \seq_set_split:Nnn \l_tmpa_seq { , } { #1 }
+    \partial \seq_use:Nn \l_tmpa_seq { \partial }
+}
+
+\newcommand{\pd}[2]{
+    \frac{\partial{#1}}{\ppartial{#2}}
+}
+\ExplSyntaxOff
+
+% 集合
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\K}{\mathbb{K}}
+
+\begin{document}
+
+\title{ヤング・タブロー 百マス計算}
+\author{dragoemon}
+\date{\today}
+\maketitle
+
+\newpage
+
+\title{ヤング・タブロー 百マス計算}
+
+\ytableausetup{boxsize=1.4em}
+\begin{figure}[H]
+    \begin{align*}
+        \begin{array}{|c|cccccccccc|}
+            \hline
+             & \ytableaushort[]{29{\scriptstyle 10},4} & \ytableaushort[]{3666,{\scriptstyle 11}} & \ytableaushort[]{19{\scriptstyle 11},4} & \ytableaushort[]{1149,78,8} & \ytableaushort[]{158,5} & \ytableaushort[]{145,589,9{\scriptstyle 10}} & \ytableaushort[]{14456,29{\scriptstyle 10},4,6} & \ytableaushort[]{13{\scriptstyle 10},36,48,5} & \ytableaushort[]{4689,68,9,{\scriptstyle 10}} & \ytableaushort[]{1445,356{\scriptstyle 10},46{\scriptstyle 10},67,7} \\
+            \hline
+             &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{111268{\scriptstyle 11},359{\scriptstyle 11},6,{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{278,68,{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{2339,48,9,{\scriptstyle 10},{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{123445{\scriptstyle 10},288,6,9} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{34778,47{\scriptstyle 11},8{\scriptstyle 10},{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{339,6} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{113377{\scriptstyle 11},35{\scriptstyle 11},4{\scriptstyle 10},{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{145667,468,589,7} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{122{\scriptstyle 10},2{\scriptstyle 10}{\scriptstyle 11},5,{\scriptstyle 10}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{12{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},5{\scriptstyle 11}{\scriptstyle 11},{\scriptstyle 11}} &  &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+            \hline
+        \end{array}
+    \end{align*}
+\end{figure}
+
+\newpage
+
+\title{解答}
+
+\ytableausetup{boxsize=0.87em}
+
+
+\begin{figure}[H]
+    \begin{align*}
+        \begin{array}{|c|cccccccccc|}
+            \hline
+             & \ytableaushort[]{29{\scriptstyle 10},4} & \ytableaushort[]{3666,{\scriptstyle 11}} & \ytableaushort[]{19{\scriptstyle 11},4} & \ytableaushort[]{1149,78,8} & \ytableaushort[]{158,5} & \ytableaushort[]{145,589,9{\scriptstyle 10}} & \ytableaushort[]{14456,29{\scriptstyle 10},4,6} & \ytableaushort[]{13{\scriptstyle 10},36,48,5} & \ytableaushort[]{4689,68,9,{\scriptstyle 10}} & \ytableaushort[]{1445,356{\scriptstyle 10},46{\scriptstyle 10},67,7} \\
+            \hline
+             &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{111268{\scriptstyle 11},359{\scriptstyle 11},6,{\scriptstyle 11}} & \ytableaushort[]{111268{\scriptstyle 11},2359{\scriptstyle 11},46{\scriptstyle 10}{\scriptstyle 11},9} & \ytableaushort[]{1112668{\scriptstyle 11},33569{\scriptstyle 11},66,{\scriptstyle 11}{\scriptstyle 11}} & \ytableaushort[]{1111268{\scriptstyle 11},359{\scriptstyle 11}{\scriptstyle 11},46{\scriptstyle 11},9} & \ytableaushort[]{11111268{\scriptstyle 11},3599{\scriptstyle 11},46{\scriptstyle 11},78,8} & \ytableaushort[]{1111268{\scriptstyle 11},3559{\scriptstyle 11},56{\scriptstyle 11},8} & \ytableaushort[]{1111268{\scriptstyle 11},3559{\scriptstyle 11},469{\scriptstyle 11},58,9{\scriptstyle 10}} & \ytableaushort[]{11112668{\scriptstyle 11},234559{\scriptstyle 11},446{\scriptstyle 11},69{\scriptstyle 10}} & \ytableaushort[]{1111268{\scriptstyle 11},33359{\scriptstyle 11},466{\scriptstyle 11},58{\scriptstyle 10}} & \ytableaushort[]{111268{\scriptstyle 11},35699{\scriptstyle 11},468{\scriptstyle 11},68,9,{\scriptstyle 10}} & \ytableaushort[]{1111268{\scriptstyle 11},334559{\scriptstyle 11},4466{\scriptstyle 11},56{\scriptstyle 10}{\scriptstyle 10},67,7} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{278,68,{\scriptstyle 11}} & \ytableaushort[]{2278,468{\scriptstyle 11},9{\scriptstyle 10}} & \ytableaushort[]{2666678,38,{\scriptstyle 11}{\scriptstyle 11}} & \ytableaushort[]{1278,468{\scriptstyle 11},9{\scriptstyle 11}} & \ytableaushort[]{112678,488{\scriptstyle 11},79,8} & \ytableaushort[]{12678,558,8{\scriptstyle 11}} & \ytableaushort[]{125678,488{\scriptstyle 11},59,9{\scriptstyle 10}} & \ytableaushort[]{12456678,248{\scriptstyle 11},49{\scriptstyle 10},6} & \ytableaushort[]{12678,338{\scriptstyle 11},46{\scriptstyle 10},58} & \ytableaushort[]{26678,4888{\scriptstyle 11},69,9,{\scriptstyle 10}} & \ytableaushort[]{1245678,3468{\scriptstyle 11},45{\scriptstyle 10}{\scriptstyle 10},66,77} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{2339,48,9,{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{22339,448{\scriptstyle 10},99,{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{233689,346,69,{\scriptstyle 10}{\scriptstyle 11},{\scriptstyle 11}} & \ytableaushort[]{12339,448{\scriptstyle 11},99,{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{112339,4489,789,8{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{12339,4588,59,{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{12339,4489,559,8{\scriptstyle 10}{\scriptstyle 10},9{\scriptstyle 11}} & \ytableaushort[]{1233689,2444,459{\scriptstyle 10},69{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{12339,3348,469{\scriptstyle 10},58{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{233899,448,669,8{\scriptstyle 10},9{\scriptstyle 11},{\scriptstyle 10}} & \ytableaushort[]{123389,3444{\scriptstyle 10},4559,666{\scriptstyle 10},77{\scriptstyle 10}{\scriptstyle 11}} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{123445{\scriptstyle 10},288,6,9} & \ytableaushort[]{1223445{\scriptstyle 10},2688,49,9,{\scriptstyle 10}} & \ytableaushort[]{1234458{\scriptstyle 10},266668,3,9,{\scriptstyle 11}} & \ytableaushort[]{1123445{\scriptstyle 10},2688,49,9,{\scriptstyle 11}} & \ytableaushort[]{11123445{\scriptstyle 10},2688,4899,7,8} & \ytableaushort[]{1123445{\scriptstyle 10},25688,59,8} & \ytableaushort[]{1123445{\scriptstyle 10},25688,4899,5{\scriptstyle 10},9} & \ytableaushort[]{11234458{\scriptstyle 10},2245668,449,69,{\scriptstyle 10}} & \ytableaushort[]{1123445{\scriptstyle 10},23688,369,48{\scriptstyle 10},5} & \ytableaushort[]{123445{\scriptstyle 10},26688,48899,6,9,{\scriptstyle 10}} & \ytableaushort[]{1123445{\scriptstyle 10},2445688,3569,46{\scriptstyle 10}{\scriptstyle 10},67,7} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{34778,47{\scriptstyle 11},8{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{234778,447{\scriptstyle 10}{\scriptstyle 11},8{\scriptstyle 10},9{\scriptstyle 11}} & \ytableaushort[]{33467778,46{\scriptstyle 10}{\scriptstyle 11},68,{\scriptstyle 11}{\scriptstyle 11}} & \ytableaushort[]{134778,447{\scriptstyle 11}{\scriptstyle 11},8{\scriptstyle 10},9{\scriptstyle 11}} & \ytableaushort[]{11344778,478{\scriptstyle 10}{\scriptstyle 11},78{\scriptstyle 11},89} & \ytableaushort[]{134778,4578{\scriptstyle 10}{\scriptstyle 11},58,{\scriptstyle 11}} & \ytableaushort[]{1344778,457{\scriptstyle 10}{\scriptstyle 11},58{\scriptstyle 11},89,9{\scriptstyle 10}} & \ytableaushort[]{134447778,246{\scriptstyle 10}{\scriptstyle 11},458{\scriptstyle 11},69{\scriptstyle 10}} & \ytableaushort[]{1334778,347{\scriptstyle 10}{\scriptstyle 11},468{\scriptstyle 11},58{\scriptstyle 10}} & \ytableaushort[]{344778,4678{\scriptstyle 10}{\scriptstyle 11},68{\scriptstyle 11},89,9,{\scriptstyle 10}} & \ytableaushort[]{13444778,3457{\scriptstyle 10}{\scriptstyle 11},4568{\scriptstyle 11},66{\scriptstyle 10}{\scriptstyle 10},77} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{339,6} & \ytableaushort[]{2339,46{\scriptstyle 10},9} & \ytableaushort[]{333669,66,{\scriptstyle 11}} & \ytableaushort[]{1339,46{\scriptstyle 11},9} & \ytableaushort[]{11339,469,78,8} & \ytableaushort[]{1339,556,8} & \ytableaushort[]{13369,459,58,9{\scriptstyle 10}} & \ytableaushort[]{1335669,244,49{\scriptstyle 10},6} & \ytableaushort[]{13339,366,48{\scriptstyle 10},5} & \ytableaushort[]{33699,468,68,9,{\scriptstyle 10}} & \ytableaushort[]{133569,344{\scriptstyle 10},456,66{\scriptstyle 10},77} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{113377{\scriptstyle 11},35{\scriptstyle 11},4{\scriptstyle 10},{\scriptstyle 11}} & \ytableaushort[]{113377{\scriptstyle 11},235{\scriptstyle 10}{\scriptstyle 11},44{\scriptstyle 10},9{\scriptstyle 11}} & \ytableaushort[]{113377{\scriptstyle 11},3356{\scriptstyle 10}{\scriptstyle 11},46,6{\scriptstyle 11},{\scriptstyle 11}} & \ytableaushort[]{1113377{\scriptstyle 11},345{\scriptstyle 11}{\scriptstyle 11},4{\scriptstyle 10},9{\scriptstyle 11}} & \ytableaushort[]{11113377{\scriptstyle 11},345{\scriptstyle 10}{\scriptstyle 11},489,7{\scriptstyle 11},8} & \ytableaushort[]{1113377{\scriptstyle 11},355{\scriptstyle 10}{\scriptstyle 11},48,5{\scriptstyle 11}} & \ytableaushort[]{1113377{\scriptstyle 11},345{\scriptstyle 10}{\scriptstyle 11},459,5{\scriptstyle 10}{\scriptstyle 11},8,9} & \ytableaushort[]{1113377{\scriptstyle 11},23445{\scriptstyle 10}{\scriptstyle 11},446{\scriptstyle 11},59{\scriptstyle 10},6} & \ytableaushort[]{1113377{\scriptstyle 11},3335{\scriptstyle 11},44{\scriptstyle 10}{\scriptstyle 10},56{\scriptstyle 11},8} & \ytableaushort[]{113377{\scriptstyle 11},3459{\scriptstyle 10}{\scriptstyle 11},468,6{\scriptstyle 11},8,9,{\scriptstyle 10}} & \ytableaushort[]{1113377{\scriptstyle 11},33445{\scriptstyle 11},445{\scriptstyle 10}{\scriptstyle 10},566{\scriptstyle 11},67{\scriptstyle 10},7} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{145667,468,589,7} & \ytableaushort[]{1445667,2568,489,7{\scriptstyle 10},9} & \ytableaushort[]{14456667,36688,579,6,{\scriptstyle 11}} & \ytableaushort[]{1145667,4468,589,7{\scriptstyle 11},9} & \ytableaushort[]{111445667,4688,5799,78,8} & \ytableaushort[]{1145667,45568,589,7,8} & \ytableaushort[]{11445667,45568,589,79,8{\scriptstyle 10},9} & \ytableaushort[]{114445667,245688,4579,66{\scriptstyle 10},9} & \ytableaushort[]{11445667,33688,4579,56{\scriptstyle 10},8} & \ytableaushort[]{1445667,46688,5799,68,8,9,{\scriptstyle 10}} & \ytableaushort[]{114445667,345568,456789,66{\scriptstyle 10}{\scriptstyle 10},77} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{122{\scriptstyle 10},2{\scriptstyle 10}{\scriptstyle 11},5,{\scriptstyle 10}} & \ytableaushort[]{1222{\scriptstyle 10}{\scriptstyle 10},25{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},4,9} & \ytableaushort[]{1226{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 10},256{\scriptstyle 11},3,6,{\scriptstyle 11}} & \ytableaushort[]{1122{\scriptstyle 10},25{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},4,9,{\scriptstyle 11}} & \ytableaushort[]{11122{\scriptstyle 10}{\scriptstyle 10},259{\scriptstyle 10}{\scriptstyle 11},48,7,8} & \ytableaushort[]{1122{\scriptstyle 10}{\scriptstyle 10},255{\scriptstyle 10}{\scriptstyle 11},5,8} & \ytableaushort[]{1122{\scriptstyle 10}{\scriptstyle 10},255{\scriptstyle 10}{\scriptstyle 11},489,5{\scriptstyle 10},9} & \ytableaushort[]{11225{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 10},2245{\scriptstyle 11},44{\scriptstyle 10},66,9} & \ytableaushort[]{1122{\scriptstyle 10}{\scriptstyle 10},235{\scriptstyle 10}{\scriptstyle 11},36{\scriptstyle 10},48,5} & \ytableaushort[]{1229{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 10},258{\scriptstyle 11},46,6,8,9,{\scriptstyle 10}} & \ytableaushort[]{11225{\scriptstyle 10}{\scriptstyle 10},2445{\scriptstyle 10}{\scriptstyle 11},356{\scriptstyle 10},46{\scriptstyle 10},67,7} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\ytableaushort[]{12{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},5{\scriptstyle 11}{\scriptstyle 11},{\scriptstyle 11}} & \ytableaushort[]{12{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},25{\scriptstyle 11}{\scriptstyle 11},49} & \ytableaushort[]{1266{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},35{\scriptstyle 11}{\scriptstyle 11},6,{\scriptstyle 11}} & \ytableaushort[]{112{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},45{\scriptstyle 11}{\scriptstyle 11}{\scriptstyle 11},9} & \ytableaushort[]{1112{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},459{\scriptstyle 11}{\scriptstyle 11},78,8} & \ytableaushort[]{112{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},555{\scriptstyle 11}{\scriptstyle 11},8} & \ytableaushort[]{1125{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},459{\scriptstyle 11}{\scriptstyle 11}{\scriptstyle 11},58,9{\scriptstyle 10}} & \ytableaushort[]{11255{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},244{\scriptstyle 11}{\scriptstyle 11},46{\scriptstyle 10},69} & \ytableaushort[]{112{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},335{\scriptstyle 11}{\scriptstyle 11},46{\scriptstyle 10},58} & \ytableaushort[]{1289{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11},45{\scriptstyle 11}{\scriptstyle 11},66,8,9,{\scriptstyle 10}} & \ytableaushort[]{11255{\scriptstyle 10}{\scriptstyle 10}{\scriptstyle 11},344{\scriptstyle 10}{\scriptstyle 11}{\scriptstyle 11}{\scriptstyle 11},456,66{\scriptstyle 10},77} \\
+ &  &  &  &  &  &  &  &  &  &  \\
+            \hline
+        \end{array}
+    \end{align*}
+\end{figure}
+
+
+
+\end{document}

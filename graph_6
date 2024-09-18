@@ -1,0 +1,1911 @@
+digraph {
+	subgraph "cluster_-7371611467695906442" {
+		654321 [color=green]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7371611467695906442.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5086827530100384073 {
+		165432
+		615432
+		651432
+		654132
+		654312 [color=green]
+		165432 -> 615432 [label="K''" color=blue]
+		615432 -> 651432 [label="K''" color=blue]
+		651432 -> 654132 [label="K''" color=blue]
+		654132 -> 654312 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5086827530100384073.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-3059009151081883949" {
+		564321
+		546321
+		543621
+		543261
+		543216 [color=green]
+		564321 -> 546321 [label="K'" color=red]
+		546321 -> 543621 [label="K'" color=red]
+		543621 -> 543261 [label="K'" color=red]
+		543261 -> 543216 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-3059009151081883949.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7589089525883754206 {
+		265431
+		625431
+		652431
+		654231
+		654213 [color=green]
+		265431 -> 625431 [label="K''" color=blue]
+		625431 -> 652431 [label="K''" color=blue]
+		652431 -> 654231 [label="K''" color=blue]
+		654231 -> 654213 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7589089525883754206.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_836320391510267617 {
+		365421
+		635421
+		653421
+		653241
+		653214 [color=green]
+		365421 -> 635421 [label="K''" color=blue]
+		635421 -> 653421 [label="K''" color=blue]
+		653421 -> 653241 [label="K'" color=red]
+		653241 -> 653214 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/836320391510267617.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-8814455987130746893" {
+		465321
+		645321
+		643521
+		643251
+		643215 [color=green]
+		465321 -> 645321 [label="K''" color=blue]
+		645321 -> 643521 [label="K'" color=red]
+		643521 -> 643251 [label="K'" color=red]
+		643251 -> 643215 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-8814455987130746893.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-1756260500511391469" {
+		261543
+		265143
+		265413
+		216543
+		625143
+		625413
+		621543
+		652413 [color=red]
+		652143 [color=blue]
+		261543 -> 216543 [label="K'" color=red]
+		261543 -> 265143 [label="K''" color=blue]
+		265143 -> 625143 [label="K''" color=blue]
+		265143 -> 265413 [label="K''" color=blue]
+		265413 -> 625413 [label="K''" color=blue]
+		216543 -> 261543 [label="K''" color=blue]
+		625143 -> 621543 [label="K'" color=red]
+		625143 -> 625413 [label="K''" color=blue]
+		625413 -> 652413 [label="K''" color=blue]
+		621543 -> 625143 [label="K''" color=blue]
+		652413 -> 652143 [label="K'" color=red]
+		652143 -> 652413 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-1756260500511391469.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-6829340253364526686" {
+		362541
+		365241
+		365214
+		326541
+		635241
+		635214
+		632541
+		632514 [color=red]
+		632154 [color=blue]
+		362541 -> 326541 [label="K'" color=red]
+		362541 -> 365241 [label="K''" color=blue]
+		365241 -> 365214 [label="K'" color=red]
+		365241 -> 635241 [label="K''" color=blue]
+		365214 -> 635214 [label="K''" color=blue]
+		326541 -> 362541 [label="K''" color=blue]
+		635241 -> 632541 [label="K'" color=red]
+		635241 -> 635214 [label="K'" color=red]
+		635214 -> 632514 [label="K'" color=red]
+		632541 -> 635241 [label="K''" color=blue]
+		632514 -> 632154 [label="K'" color=red]
+		632154 -> 632514 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-6829340253364526686.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_985704832415849006 {
+		361542
+		365142
+		365412
+		316542
+		635142
+		635412
+		631542
+		653412 [color=red]
+		653142 [color=blue]
+		361542 -> 316542 [label="K'" color=red]
+		361542 -> 365142 [label="K''" color=blue]
+		365142 -> 635142 [label="K''" color=blue]
+		365142 -> 365412 [label="K''" color=blue]
+		365412 -> 635412 [label="K''" color=blue]
+		316542 -> 361542 [label="K''" color=blue]
+		635142 -> 631542 [label="K'" color=red]
+		635142 -> 635412 [label="K''" color=blue]
+		635412 -> 653412 [label="K''" color=blue]
+		631542 -> 635142 [label="K''" color=blue]
+		653412 -> 653142 [label="K'" color=red]
+		653142 -> 653412 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/985704832415849006.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-729925516330820173" {
+		463521
+		463251
+		463215
+		436521
+		436251
+		436215
+		432651
+		432615 [color=red]
+		432165 [color=blue]
+		463521 -> 436521 [label="K'" color=red]
+		463521 -> 463251 [label="K'" color=red]
+		463251 -> 436251 [label="K'" color=red]
+		463251 -> 463215 [label="K'" color=red]
+		463215 -> 436215 [label="K'" color=red]
+		436521 -> 463521 [label="K''" color=blue]
+		436251 -> 432651 [label="K'" color=red]
+		436251 -> 436215 [label="K'" color=red]
+		436215 -> 432615 [label="K'" color=red]
+		432651 -> 436251 [label="K''" color=blue]
+		432615 -> 432165 [label="K'" color=red]
+		432165 -> 432615 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-729925516330820173.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_921506939738015434 {
+		562431
+		564231
+		564213
+		526431
+		546231
+		546213
+		542631
+		542613 [color=red]
+		542163 [color=blue]
+		562431 -> 526431 [label="K'" color=red]
+		562431 -> 564231 [label="K''" color=blue]
+		564231 -> 546231 [label="K'" color=red]
+		564231 -> 564213 [label="K'" color=red]
+		564213 -> 546213 [label="K'" color=red]
+		526431 -> 562431 [label="K''" color=blue]
+		546231 -> 542631 [label="K'" color=red]
+		546231 -> 546213 [label="K'" color=red]
+		546213 -> 542613 [label="K'" color=red]
+		542631 -> 546231 [label="K''" color=blue]
+		542613 -> 542163 [label="K'" color=red]
+		542163 -> 542613 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/921506939738015434.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-4145024725224205856" {
+		462531
+		465231
+		465213
+		426531
+		645231
+		645213
+		642531
+		642513 [color=red]
+		642153 [color=blue]
+		462531 -> 426531 [label="K'" color=red]
+		462531 -> 465231 [label="K''" color=blue]
+		465231 -> 465213 [label="K'" color=red]
+		465231 -> 645231 [label="K''" color=blue]
+		465213 -> 645213 [label="K''" color=blue]
+		426531 -> 462531 [label="K''" color=blue]
+		645231 -> 642531 [label="K'" color=red]
+		645231 -> 645213 [label="K'" color=red]
+		645213 -> 642513 [label="K'" color=red]
+		642531 -> 645231 [label="K''" color=blue]
+		642513 -> 642153 [label="K'" color=red]
+		642153 -> 642513 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-4145024725224205856.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8379500559538414050 {
+		563421
+		563241
+		563214
+		536421
+		536241
+		536214
+		532641
+		532614 [color=red]
+		532164 [color=blue]
+		563421 -> 536421 [label="K'" color=red]
+		563421 -> 563241 [label="K'" color=red]
+		563241 -> 536241 [label="K'" color=red]
+		563241 -> 563214 [label="K'" color=red]
+		563214 -> 536214 [label="K'" color=red]
+		536421 -> 563421 [label="K''" color=blue]
+		536241 -> 532641 [label="K'" color=red]
+		536241 -> 536214 [label="K'" color=red]
+		536214 -> 532614 [label="K'" color=red]
+		532641 -> 536241 [label="K''" color=blue]
+		532614 -> 532164 [label="K'" color=red]
+		532164 -> 532614 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8379500559538414050.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4756478182707952490 {
+		461532
+		465132
+		465312
+		416532
+		645132
+		645312
+		641532
+		643512 [color=red]
+		643152 [color=blue]
+		461532 -> 416532 [label="K'" color=red]
+		461532 -> 465132 [label="K''" color=blue]
+		465132 -> 645132 [label="K''" color=blue]
+		465132 -> 465312 [label="K''" color=blue]
+		465312 -> 645312 [label="K''" color=blue]
+		416532 -> 461532 [label="K''" color=blue]
+		645132 -> 641532 [label="K'" color=red]
+		645132 -> 645312 [label="K''" color=blue]
+		645312 -> 643512 [label="K'" color=red]
+		641532 -> 645132 [label="K''" color=blue]
+		643512 -> 643152 [label="K'" color=red]
+		643152 -> 643512 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4756478182707952490.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7672269080252675699 {
+		561432
+		564132
+		564312
+		516432
+		546132
+		546312
+		541632
+		543612 [color=red]
+		543162 [color=blue]
+		561432 -> 516432 [label="K'" color=red]
+		561432 -> 564132 [label="K''" color=blue]
+		564132 -> 546132 [label="K'" color=red]
+		564132 -> 564312 [label="K''" color=blue]
+		564312 -> 546312 [label="K'" color=red]
+		516432 -> 561432 [label="K''" color=blue]
+		546132 -> 541632 [label="K'" color=red]
+		546132 -> 546312 [label="K''" color=blue]
+		546312 -> 543612 [label="K'" color=red]
+		541632 -> 546132 [label="K''" color=blue]
+		543612 -> 543162 [label="K'" color=red]
+		543162 -> 543612 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7672269080252675699.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_619710501427884288 {
+		562413 [color=red]
+		562143
+		526413
+		526143
+		521643 [color=blue]
+		562413 -> 526413 [label="K'" color=red]
+		562413 -> 562143 [label="K'" color=red]
+		562143 -> 526143 [label="K'" color=red]
+		562143 -> 562413 [label="K''" color=blue]
+		526413 -> 562413 [label="K''" color=blue]
+		526143 -> 521643 [label="K'" color=red]
+		526143 -> 526413 [label="K''" color=blue]
+		521643 -> 526143 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/619710501427884288.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_683845631297459348 {
+		563412 [color=red]
+		563142
+		536412
+		536142
+		531642 [color=blue]
+		563412 -> 536412 [label="K'" color=red]
+		563412 -> 563142 [label="K'" color=red]
+		563142 -> 536142 [label="K'" color=red]
+		563142 -> 563412 [label="K''" color=blue]
+		536412 -> 563412 [label="K''" color=blue]
+		536142 -> 531642 [label="K'" color=red]
+		536142 -> 536412 [label="K''" color=blue]
+		531642 -> 536142 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/683845631297459348.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-2161642165571463270" {
+		362514 [color=red]
+		362154
+		326514
+		326154
+		321654 [color=blue]
+		362514 -> 326514 [label="K'" color=red]
+		362514 -> 362154 [label="K'" color=red]
+		362154 -> 326154 [label="K'" color=red]
+		362154 -> 362514 [label="K''" color=blue]
+		326514 -> 362514 [label="K''" color=blue]
+		326154 -> 321654 [label="K'" color=red]
+		326154 -> 326514 [label="K''" color=blue]
+		321654 -> 326154 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-2161642165571463270.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-6191622125765320379" {
+		462513 [color=red]
+		462153
+		426513
+		426153
+		421653 [color=blue]
+		462513 -> 426513 [label="K'" color=red]
+		462513 -> 462153 [label="K'" color=red]
+		462153 -> 426153 [label="K'" color=red]
+		462153 -> 462513 [label="K''" color=blue]
+		426513 -> 462513 [label="K''" color=blue]
+		426153 -> 421653 [label="K'" color=red]
+		426153 -> 426513 [label="K''" color=blue]
+		421653 -> 426153 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-6191622125765320379.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5316899675723479634 {
+		463512 [color=red]
+		463152
+		436512
+		436152
+		431652 [color=blue]
+		463512 -> 436512 [label="K'" color=red]
+		463512 -> 463152 [label="K'" color=red]
+		463152 -> 436152 [label="K'" color=red]
+		463152 -> 463512 [label="K''" color=blue]
+		436512 -> 463512 [label="K''" color=blue]
+		436152 -> 431652 [label="K'" color=red]
+		436152 -> 436512 [label="K''" color=blue]
+		431652 -> 436152 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5316899675723479634.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7276063220163953014" {
+		456321
+		453621
+		453261
+		453216
+		435621
+		435261
+		435216
+		432561
+		432516
+		432156 [color=green]
+		456321 -> 453621 [label="K'" color=red]
+		453621 -> 435621 [label="K'" color=red]
+		453621 -> 453261 [label="K'" color=red]
+		453261 -> 435261 [label="K'" color=red]
+		453261 -> 453216 [label="K'" color=red]
+		453216 -> 435216 [label="K'" color=red]
+		435621 -> 435261 [label="K'" color=red]
+		435261 -> 432561 [label="K'" color=red]
+		435261 -> 435216 [label="K'" color=red]
+		435216 -> 432516 [label="K'" color=red]
+		432561 -> 432516 [label="K'" color=red]
+		432516 -> 432156 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7276063220163953014.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4833112086331590295 {
+		156432
+		154632
+		154362
+		154326
+		514632
+		514362
+		514326
+		541362
+		541326
+		543126 [color=green]
+		156432 -> 154632 [label="K'" color=red]
+		154632 -> 154362 [label="K'" color=red]
+		154632 -> 514632 [label="K''" color=blue]
+		154362 -> 154326 [label="K'" color=red]
+		154362 -> 514362 [label="K''" color=blue]
+		154326 -> 514326 [label="K''" color=blue]
+		514632 -> 514362 [label="K'" color=red]
+		514362 -> 514326 [label="K'" color=red]
+		514362 -> 541362 [label="K''" color=blue]
+		514326 -> 541326 [label="K''" color=blue]
+		541362 -> 541326 [label="K'" color=red]
+		541326 -> 543126 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4833112086331590295.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-3659327758688477030" {
+		356421
+		354621
+		354261
+		354216
+		534621
+		534261
+		534216
+		532461
+		532416
+		532146 [color=green]
+		356421 -> 354621 [label="K'" color=red]
+		354621 -> 354261 [label="K'" color=red]
+		354621 -> 534621 [label="K''" color=blue]
+		354261 -> 354216 [label="K'" color=red]
+		354261 -> 534261 [label="K''" color=blue]
+		354216 -> 534216 [label="K''" color=blue]
+		534621 -> 534261 [label="K'" color=red]
+		534261 -> 532461 [label="K'" color=red]
+		534261 -> 534216 [label="K'" color=red]
+		534216 -> 532416 [label="K'" color=red]
+		532461 -> 532416 [label="K'" color=red]
+		532416 -> 532146 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-3659327758688477030.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4390251298183257253 {
+		346521
+		364521
+		364251
+		364215
+		634521
+		634251
+		634215
+		632451
+		632415
+		632145 [color=green]
+		346521 -> 364521 [label="K''" color=blue]
+		364521 -> 364251 [label="K'" color=red]
+		364521 -> 634521 [label="K''" color=blue]
+		364251 -> 364215 [label="K'" color=red]
+		364251 -> 634251 [label="K''" color=blue]
+		364215 -> 634215 [label="K''" color=blue]
+		634521 -> 634251 [label="K'" color=red]
+		634251 -> 632451 [label="K'" color=red]
+		634251 -> 634215 [label="K'" color=red]
+		634215 -> 632415 [label="K'" color=red]
+		632451 -> 632415 [label="K'" color=red]
+		632415 -> 632145 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4390251298183257253.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8244895679124747953 {
+		256431
+		254631
+		254361
+		254316
+		524631
+		524361
+		524316
+		542361
+		542316
+		542136 [color=green]
+		256431 -> 254631 [label="K'" color=red]
+		254631 -> 254361 [label="K'" color=red]
+		254631 -> 524631 [label="K''" color=blue]
+		254361 -> 254316 [label="K'" color=red]
+		254361 -> 524361 [label="K''" color=blue]
+		254316 -> 524316 [label="K''" color=blue]
+		524631 -> 524361 [label="K'" color=red]
+		524361 -> 524316 [label="K'" color=red]
+		524361 -> 542361 [label="K''" color=blue]
+		524316 -> 542316 [label="K''" color=blue]
+		542361 -> 542316 [label="K'" color=red]
+		542316 -> 542136 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8244895679124747953.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4302071399316894935 {
+		136542
+		163542
+		165342
+		165324
+		613542
+		615342
+		615324
+		651342
+		651324
+		653124 [color=green]
+		136542 -> 163542 [label="K''" color=blue]
+		163542 -> 613542 [label="K''" color=blue]
+		163542 -> 165342 [label="K''" color=blue]
+		165342 -> 165324 [label="K'" color=red]
+		165342 -> 615342 [label="K''" color=blue]
+		165324 -> 615324 [label="K''" color=blue]
+		613542 -> 615342 [label="K''" color=blue]
+		615342 -> 615324 [label="K'" color=red]
+		615342 -> 651342 [label="K''" color=blue]
+		615324 -> 651324 [label="K''" color=blue]
+		651342 -> 651324 [label="K'" color=red]
+		651324 -> 653124 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4302071399316894935.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-9130845610289300883" {
+		146532
+		164532
+		164352
+		164325
+		614532
+		614352
+		614325
+		641352
+		641325
+		643125 [color=green]
+		146532 -> 164532 [label="K''" color=blue]
+		164532 -> 164352 [label="K'" color=red]
+		164532 -> 614532 [label="K''" color=blue]
+		164352 -> 164325 [label="K'" color=red]
+		164352 -> 614352 [label="K''" color=blue]
+		164325 -> 614325 [label="K''" color=blue]
+		614532 -> 614352 [label="K'" color=red]
+		614352 -> 614325 [label="K'" color=red]
+		614352 -> 641352 [label="K''" color=blue]
+		614325 -> 641325 [label="K''" color=blue]
+		641352 -> 641325 [label="K'" color=red]
+		641325 -> 643125 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-9130845610289300883.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1484591331687512429 {
+		236541
+		263541
+		265341
+		265314
+		623541
+		625341
+		625314
+		652341
+		652314
+		652134 [color=green]
+		236541 -> 263541 [label="K''" color=blue]
+		263541 -> 623541 [label="K''" color=blue]
+		263541 -> 265341 [label="K''" color=blue]
+		265341 -> 265314 [label="K'" color=red]
+		265341 -> 625341 [label="K''" color=blue]
+		265314 -> 625314 [label="K''" color=blue]
+		623541 -> 625341 [label="K''" color=blue]
+		625341 -> 625314 [label="K'" color=red]
+		625341 -> 652341 [label="K''" color=blue]
+		625314 -> 652314 [label="K''" color=blue]
+		652341 -> 652314 [label="K'" color=red]
+		652314 -> 652134 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1484591331687512429.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1433408509330839023 {
+		246531
+		264531
+		264351
+		264315
+		624531
+		624351
+		624315
+		642351
+		642315
+		642135 [color=green]
+		246531 -> 264531 [label="K''" color=blue]
+		264531 -> 264351 [label="K'" color=red]
+		264531 -> 624531 [label="K''" color=blue]
+		264351 -> 264315 [label="K'" color=red]
+		264351 -> 624351 [label="K''" color=blue]
+		264315 -> 624315 [label="K''" color=blue]
+		624531 -> 624351 [label="K'" color=red]
+		624351 -> 624315 [label="K'" color=red]
+		624351 -> 642351 [label="K''" color=blue]
+		624315 -> 642315 [label="K''" color=blue]
+		642351 -> 642315 [label="K'" color=red]
+		642315 -> 642135 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1433408509330839023.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7425482894816543994 {
+		126543
+		162543
+		165243
+		165423
+		612543
+		615243
+		615423
+		651243
+		651423
+		654123 [color=green]
+		126543 -> 162543 [label="K''" color=blue]
+		162543 -> 612543 [label="K''" color=blue]
+		162543 -> 165243 [label="K''" color=blue]
+		165243 -> 615243 [label="K''" color=blue]
+		165243 -> 165423 [label="K''" color=blue]
+		165423 -> 615423 [label="K''" color=blue]
+		612543 -> 615243 [label="K''" color=blue]
+		615243 -> 651243 [label="K''" color=blue]
+		615243 -> 615423 [label="K''" color=blue]
+		615423 -> 651423 [label="K''" color=blue]
+		651243 -> 651423 [label="K''" color=blue]
+		651423 -> 654123 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7425482894816543994.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1480804123179786113 {
+		256143
+		256413
+		251643
+		254613
+		251463
+		251436
+		254163
+		254136
+		215643
+		524613
+		215463
+		215436
+		524163
+		524136 [color=red]
+		521463
+		521436 [color=blue]
+		256143 -> 251643 [label="K'" color=red]
+		256143 -> 256413 [label="K''" color=blue]
+		256413 -> 254613 [label="K'" color=red]
+		251643 -> 215643 [label="K'" color=red]
+		251643 -> 256143 [label="K''" color=blue]
+		254613 -> 254163 [label="K'" color=red]
+		254613 -> 524613 [label="K''" color=blue]
+		251463 -> 215463 [label="K'" color=red]
+		251463 -> 251436 [label="K'" color=red]
+		251436 -> 215436 [label="K'" color=red]
+		251436 -> 254136 [label="K''" color=blue]
+		254163 -> 524163 [label="K''" color=blue]
+		254163 -> 254613 [label="K''" color=blue]
+		254136 -> 524136 [label="K''" color=blue]
+		215643 -> 215463 [label="K'" color=red]
+		524613 -> 524163 [label="K'" color=red]
+		215463 -> 215436 [label="K'" color=red]
+		215463 -> 251463 [label="K''" color=blue]
+		215436 -> 251436 [label="K''" color=blue]
+		524163 -> 521463 [label="K'" color=red]
+		524163 -> 524613 [label="K''" color=blue]
+		524136 -> 521436 [label="K'" color=red]
+		521463 -> 521436 [label="K'" color=red]
+		521436 -> 524136 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1480804123179786113.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8722525516466687502 {
+		456132
+		456312
+		451632
+		453612
+		451362
+		451326
+		453162
+		453126
+		415632
+		435612
+		415362
+		415326
+		435162
+		435126 [color=red]
+		431562
+		431526 [color=blue]
+		456132 -> 451632 [label="K'" color=red]
+		456132 -> 456312 [label="K''" color=blue]
+		456312 -> 453612 [label="K'" color=red]
+		451632 -> 415632 [label="K'" color=red]
+		451632 -> 456132 [label="K''" color=blue]
+		453612 -> 435612 [label="K'" color=red]
+		453612 -> 453162 [label="K'" color=red]
+		451362 -> 415362 [label="K'" color=red]
+		451362 -> 451326 [label="K'" color=red]
+		451326 -> 415326 [label="K'" color=red]
+		451326 -> 453126 [label="K''" color=blue]
+		453162 -> 435162 [label="K'" color=red]
+		453162 -> 453612 [label="K''" color=blue]
+		453126 -> 435126 [label="K'" color=red]
+		415632 -> 415362 [label="K'" color=red]
+		435612 -> 435162 [label="K'" color=red]
+		415362 -> 415326 [label="K'" color=red]
+		415362 -> 451362 [label="K''" color=blue]
+		415326 -> 451326 [label="K''" color=blue]
+		435162 -> 431562 [label="K'" color=red]
+		435162 -> 435612 [label="K''" color=blue]
+		435126 -> 431526 [label="K'" color=red]
+		431562 -> 431526 [label="K'" color=red]
+		431526 -> 435126 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8722525516466687502.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-4597182847135391215" {
+		246351
+		246315
+		243651
+		243615
+		462351
+		462315
+		243165
+		462135
+		423651
+		423615
+		426351
+		426315
+		423165
+		426135 [color=red]
+		421365
+		421635 [color=blue]
+		246351 -> 243651 [label="K'" color=red]
+		246351 -> 246315 [label="K'" color=red]
+		246315 -> 243615 [label="K'" color=red]
+		243651 -> 423651 [label="K''" color=blue]
+		243651 -> 246351 [label="K''" color=blue]
+		243615 -> 243165 [label="K'" color=red]
+		243615 -> 423615 [label="K''" color=blue]
+		462351 -> 426351 [label="K'" color=red]
+		462351 -> 462315 [label="K'" color=red]
+		462315 -> 426315 [label="K'" color=red]
+		462315 -> 462135 [label="K'" color=red]
+		243165 -> 423165 [label="K''" color=blue]
+		243165 -> 243615 [label="K''" color=blue]
+		462135 -> 426135 [label="K'" color=red]
+		423651 -> 426351 [label="K''" color=blue]
+		423615 -> 423165 [label="K'" color=red]
+		426351 -> 426315 [label="K'" color=red]
+		426351 -> 462351 [label="K''" color=blue]
+		426315 -> 462315 [label="K''" color=blue]
+		423165 -> 421365 [label="K'" color=red]
+		423165 -> 423615 [label="K''" color=blue]
+		426135 -> 421635 [label="K'" color=red]
+		421365 -> 421635 [label="K''" color=blue]
+		421635 -> 426135 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-4597182847135391215.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4894710711181786139 {
+		236154
+		236514
+		231654
+		263514
+		261354
+		261534
+		263154
+		265134
+		213654
+		623514
+		216354
+		216534
+		623154
+		625134 [color=red]
+		621354
+		621534 [color=blue]
+		236154 -> 231654 [label="K'" color=red]
+		236154 -> 236514 [label="K''" color=blue]
+		236514 -> 263514 [label="K''" color=blue]
+		231654 -> 213654 [label="K'" color=red]
+		231654 -> 236154 [label="K''" color=blue]
+		263514 -> 263154 [label="K'" color=red]
+		263514 -> 623514 [label="K''" color=blue]
+		261354 -> 216354 [label="K'" color=red]
+		261354 -> 261534 [label="K''" color=blue]
+		261534 -> 216534 [label="K'" color=red]
+		261534 -> 265134 [label="K''" color=blue]
+		263154 -> 623154 [label="K''" color=blue]
+		263154 -> 263514 [label="K''" color=blue]
+		265134 -> 625134 [label="K''" color=blue]
+		213654 -> 216354 [label="K''" color=blue]
+		623514 -> 623154 [label="K'" color=red]
+		216354 -> 261354 [label="K''" color=blue]
+		216354 -> 216534 [label="K''" color=blue]
+		216534 -> 261534 [label="K''" color=blue]
+		623154 -> 621354 [label="K'" color=red]
+		623154 -> 623514 [label="K''" color=blue]
+		625134 -> 621534 [label="K'" color=red]
+		621354 -> 621534 [label="K''" color=blue]
+		621534 -> 625134 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4894710711181786139.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_988750075937617196 {
+		146253
+		146523
+		142653
+		164523
+		461253
+		461523
+		164253
+		465123
+		412653
+		614523
+		416253
+		416523
+		614253
+		645123 [color=red]
+		641253
+		641523 [color=blue]
+		146253 -> 142653 [label="K'" color=red]
+		146253 -> 146523 [label="K''" color=blue]
+		146523 -> 164523 [label="K''" color=blue]
+		142653 -> 412653 [label="K''" color=blue]
+		142653 -> 146253 [label="K''" color=blue]
+		164523 -> 164253 [label="K'" color=red]
+		164523 -> 614523 [label="K''" color=blue]
+		461253 -> 416253 [label="K'" color=red]
+		461253 -> 461523 [label="K''" color=blue]
+		461523 -> 416523 [label="K'" color=red]
+		461523 -> 465123 [label="K''" color=blue]
+		164253 -> 614253 [label="K''" color=blue]
+		164253 -> 164523 [label="K''" color=blue]
+		465123 -> 645123 [label="K''" color=blue]
+		412653 -> 416253 [label="K''" color=blue]
+		614523 -> 614253 [label="K'" color=red]
+		416253 -> 461253 [label="K''" color=blue]
+		416253 -> 416523 [label="K''" color=blue]
+		416523 -> 461523 [label="K''" color=blue]
+		614253 -> 641253 [label="K''" color=blue]
+		614253 -> 614523 [label="K''" color=blue]
+		645123 -> 641523 [label="K'" color=red]
+		641253 -> 641523 [label="K''" color=blue]
+		641523 -> 645123 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/988750075937617196.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-1998669410944954834" {
+		346251
+		346215
+		342651
+		342615
+		362451
+		362415
+		342165
+		362145
+		324651
+		324615
+		326451
+		326415
+		324165
+		326145 [color=red]
+		321465
+		321645 [color=blue]
+		346251 -> 342651 [label="K'" color=red]
+		346251 -> 346215 [label="K'" color=red]
+		346215 -> 342615 [label="K'" color=red]
+		342651 -> 324651 [label="K'" color=red]
+		342651 -> 346251 [label="K''" color=blue]
+		342615 -> 324615 [label="K'" color=red]
+		342615 -> 342165 [label="K'" color=red]
+		362451 -> 326451 [label="K'" color=red]
+		362451 -> 362415 [label="K'" color=red]
+		362415 -> 326415 [label="K'" color=red]
+		362415 -> 362145 [label="K'" color=red]
+		342165 -> 324165 [label="K'" color=red]
+		342165 -> 342615 [label="K''" color=blue]
+		362145 -> 326145 [label="K'" color=red]
+		324651 -> 326451 [label="K''" color=blue]
+		324615 -> 324165 [label="K'" color=red]
+		326451 -> 326415 [label="K'" color=red]
+		326451 -> 362451 [label="K''" color=blue]
+		326415 -> 362415 [label="K''" color=blue]
+		324165 -> 321465 [label="K'" color=red]
+		324165 -> 324615 [label="K''" color=blue]
+		326145 -> 321645 [label="K'" color=red]
+		321465 -> 321645 [label="K''" color=blue]
+		321645 -> 326145 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-1998669410944954834.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-8796160076736816136" {
+		356241
+		356214
+		352641
+		352614
+		352461
+		352416
+		352164
+		352146
+		325641
+		325614
+		325461
+		325416
+		325164
+		325146 [color=red]
+		321564
+		321546 [color=blue]
+		356241 -> 352641 [label="K'" color=red]
+		356241 -> 356214 [label="K'" color=red]
+		356214 -> 352614 [label="K'" color=red]
+		352641 -> 325641 [label="K'" color=red]
+		352641 -> 356241 [label="K''" color=blue]
+		352614 -> 325614 [label="K'" color=red]
+		352614 -> 352164 [label="K'" color=red]
+		352461 -> 325461 [label="K'" color=red]
+		352461 -> 352416 [label="K'" color=red]
+		352416 -> 325416 [label="K'" color=red]
+		352416 -> 352146 [label="K'" color=red]
+		352164 -> 325164 [label="K'" color=red]
+		352164 -> 352614 [label="K''" color=blue]
+		352146 -> 325146 [label="K'" color=red]
+		325641 -> 325461 [label="K'" color=red]
+		325614 -> 325164 [label="K'" color=red]
+		325461 -> 325416 [label="K'" color=red]
+		325461 -> 352461 [label="K''" color=blue]
+		325416 -> 352416 [label="K''" color=blue]
+		325164 -> 321564 [label="K'" color=red]
+		325164 -> 325614 [label="K''" color=blue]
+		325146 -> 321546 [label="K'" color=red]
+		321564 -> 321546 [label="K'" color=red]
+		321546 -> 325146 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-8796160076736816136.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5935108540304118842 {
+		146352
+		146325
+		143652
+		143625
+		461352
+		461325
+		143265
+		463125
+		413652
+		413625
+		416352
+		416325
+		413265
+		436125 [color=red]
+		431265
+		431625 [color=blue]
+		146352 -> 143652 [label="K'" color=red]
+		146352 -> 146325 [label="K'" color=red]
+		146325 -> 143625 [label="K'" color=red]
+		143652 -> 413652 [label="K''" color=blue]
+		143652 -> 146352 [label="K''" color=blue]
+		143625 -> 143265 [label="K'" color=red]
+		143625 -> 413625 [label="K''" color=blue]
+		461352 -> 416352 [label="K'" color=red]
+		461352 -> 461325 [label="K'" color=red]
+		461325 -> 416325 [label="K'" color=red]
+		461325 -> 463125 [label="K''" color=blue]
+		143265 -> 413265 [label="K''" color=blue]
+		143265 -> 143625 [label="K''" color=blue]
+		463125 -> 436125 [label="K'" color=red]
+		413652 -> 416352 [label="K''" color=blue]
+		413625 -> 413265 [label="K'" color=red]
+		416352 -> 416325 [label="K'" color=red]
+		416352 -> 461352 [label="K''" color=blue]
+		416325 -> 461325 [label="K''" color=blue]
+		413265 -> 431265 [label="K''" color=blue]
+		413265 -> 413625 [label="K''" color=blue]
+		436125 -> 431625 [label="K'" color=red]
+		431265 -> 431625 [label="K''" color=blue]
+		431625 -> 436125 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5935108540304118842.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_932549550410780988 {
+		356142
+		356412
+		351642
+		354612
+		351462
+		351426
+		354162
+		354126
+		315642
+		534612
+		315462
+		315426
+		534162
+		534126 [color=red]
+		531462
+		531426 [color=blue]
+		356142 -> 351642 [label="K'" color=red]
+		356142 -> 356412 [label="K''" color=blue]
+		356412 -> 354612 [label="K'" color=red]
+		351642 -> 315642 [label="K'" color=red]
+		351642 -> 356142 [label="K''" color=blue]
+		354612 -> 354162 [label="K'" color=red]
+		354612 -> 534612 [label="K''" color=blue]
+		351462 -> 315462 [label="K'" color=red]
+		351462 -> 351426 [label="K'" color=red]
+		351426 -> 315426 [label="K'" color=red]
+		351426 -> 354126 [label="K''" color=blue]
+		354162 -> 534162 [label="K''" color=blue]
+		354162 -> 354612 [label="K''" color=blue]
+		354126 -> 534126 [label="K''" color=blue]
+		315642 -> 315462 [label="K'" color=red]
+		534612 -> 534162 [label="K'" color=red]
+		315462 -> 315426 [label="K'" color=red]
+		315462 -> 351462 [label="K''" color=blue]
+		315426 -> 351426 [label="K''" color=blue]
+		534162 -> 531462 [label="K'" color=red]
+		534162 -> 534612 [label="K''" color=blue]
+		534126 -> 531426 [label="K'" color=red]
+		531462 -> 531426 [label="K'" color=red]
+		531426 -> 534126 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/932549550410780988.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-1122815300118703400" {
+		256341
+		256314
+		253641
+		253614
+		562341
+		562314
+		253164
+		562134
+		523641
+		523614
+		526341
+		526314
+		523164
+		526134 [color=red]
+		521364
+		521634 [color=blue]
+		256341 -> 253641 [label="K'" color=red]
+		256341 -> 256314 [label="K'" color=red]
+		256314 -> 253614 [label="K'" color=red]
+		253641 -> 523641 [label="K''" color=blue]
+		253641 -> 256341 [label="K''" color=blue]
+		253614 -> 253164 [label="K'" color=red]
+		253614 -> 523614 [label="K''" color=blue]
+		562341 -> 526341 [label="K'" color=red]
+		562341 -> 562314 [label="K'" color=red]
+		562314 -> 526314 [label="K'" color=red]
+		562314 -> 562134 [label="K'" color=red]
+		253164 -> 523164 [label="K''" color=blue]
+		253164 -> 253614 [label="K''" color=blue]
+		562134 -> 526134 [label="K'" color=red]
+		523641 -> 526341 [label="K''" color=blue]
+		523614 -> 523164 [label="K'" color=red]
+		526341 -> 526314 [label="K'" color=red]
+		526341 -> 562341 [label="K''" color=blue]
+		526314 -> 562314 [label="K''" color=blue]
+		523164 -> 521364 [label="K'" color=red]
+		523164 -> 523614 [label="K''" color=blue]
+		526134 -> 521634 [label="K'" color=red]
+		521364 -> 521634 [label="K''" color=blue]
+		521634 -> 526134 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-1122815300118703400.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_3540204891427869925 {
+		456231
+		456213
+		452631
+		452613
+		452361
+		452316
+		452163
+		452136
+		425631
+		425613
+		425361
+		425316
+		425163
+		425136 [color=red]
+		421563
+		421536 [color=blue]
+		456231 -> 452631 [label="K'" color=red]
+		456231 -> 456213 [label="K'" color=red]
+		456213 -> 452613 [label="K'" color=red]
+		452631 -> 425631 [label="K'" color=red]
+		452631 -> 456231 [label="K''" color=blue]
+		452613 -> 425613 [label="K'" color=red]
+		452613 -> 452163 [label="K'" color=red]
+		452361 -> 425361 [label="K'" color=red]
+		452361 -> 452316 [label="K'" color=red]
+		452316 -> 425316 [label="K'" color=red]
+		452316 -> 452136 [label="K'" color=red]
+		452163 -> 425163 [label="K'" color=red]
+		452163 -> 452613 [label="K''" color=blue]
+		452136 -> 425136 [label="K'" color=red]
+		425631 -> 425361 [label="K'" color=red]
+		425613 -> 425163 [label="K'" color=red]
+		425361 -> 425316 [label="K'" color=red]
+		425361 -> 452361 [label="K''" color=blue]
+		425316 -> 452316 [label="K''" color=blue]
+		425163 -> 421563 [label="K'" color=red]
+		425163 -> 425613 [label="K''" color=blue]
+		425136 -> 421536 [label="K'" color=red]
+		421563 -> 421536 [label="K'" color=red]
+		421536 -> 425136 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/3540204891427869925.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_3284857383821856744 {
+		346152
+		346512
+		341652
+		364512
+		361452
+		361425
+		364152
+		364125
+		314652
+		634512
+		316452
+		316425
+		634152
+		634125 [color=red]
+		631452
+		631425 [color=blue]
+		346152 -> 341652 [label="K'" color=red]
+		346152 -> 346512 [label="K''" color=blue]
+		346512 -> 364512 [label="K''" color=blue]
+		341652 -> 314652 [label="K'" color=red]
+		341652 -> 346152 [label="K''" color=blue]
+		364512 -> 364152 [label="K'" color=red]
+		364512 -> 634512 [label="K''" color=blue]
+		361452 -> 316452 [label="K'" color=red]
+		361452 -> 361425 [label="K'" color=red]
+		361425 -> 316425 [label="K'" color=red]
+		361425 -> 364125 [label="K''" color=blue]
+		364152 -> 634152 [label="K''" color=blue]
+		364152 -> 364512 [label="K''" color=blue]
+		364125 -> 634125 [label="K''" color=blue]
+		314652 -> 316452 [label="K''" color=blue]
+		634512 -> 634152 [label="K'" color=red]
+		316452 -> 316425 [label="K'" color=red]
+		316452 -> 361452 [label="K''" color=blue]
+		316425 -> 361425 [label="K''" color=blue]
+		634152 -> 631452 [label="K'" color=red]
+		634152 -> 634512 [label="K''" color=blue]
+		634125 -> 631425 [label="K'" color=red]
+		631452 -> 631425 [label="K'" color=red]
+		631425 -> 634125 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/3284857383821856744.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7641415006173312151" {
+		246153
+		246513
+		241653
+		264513
+		261453
+		261435
+		264153
+		264135
+		214653
+		624513
+		216453
+		216435
+		624153
+		624135 [color=red]
+		621453
+		621435 [color=blue]
+		246153 -> 241653 [label="K'" color=red]
+		246153 -> 246513 [label="K''" color=blue]
+		246513 -> 264513 [label="K''" color=blue]
+		241653 -> 214653 [label="K'" color=red]
+		241653 -> 246153 [label="K''" color=blue]
+		264513 -> 264153 [label="K'" color=red]
+		264513 -> 624513 [label="K''" color=blue]
+		261453 -> 216453 [label="K'" color=red]
+		261453 -> 261435 [label="K'" color=red]
+		261435 -> 216435 [label="K'" color=red]
+		261435 -> 264135 [label="K''" color=blue]
+		264153 -> 624153 [label="K''" color=blue]
+		264153 -> 264513 [label="K''" color=blue]
+		264135 -> 624135 [label="K''" color=blue]
+		214653 -> 216453 [label="K''" color=blue]
+		624513 -> 624153 [label="K'" color=red]
+		216453 -> 216435 [label="K'" color=red]
+		216453 -> 261453 [label="K''" color=blue]
+		216435 -> 261435 [label="K''" color=blue]
+		624153 -> 621453 [label="K'" color=red]
+		624153 -> 624513 [label="K''" color=blue]
+		624135 -> 621435 [label="K'" color=red]
+		621453 -> 621435 [label="K'" color=red]
+		621435 -> 624135 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7641415006173312151.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8871584739211042286 {
+		156342
+		156324
+		153642
+		153624
+		561342
+		561324
+		153264
+		563124
+		513642
+		513624
+		516342
+		516324
+		513264
+		536124 [color=red]
+		531264
+		531624 [color=blue]
+		156342 -> 153642 [label="K'" color=red]
+		156342 -> 156324 [label="K'" color=red]
+		156324 -> 153624 [label="K'" color=red]
+		153642 -> 513642 [label="K''" color=blue]
+		153642 -> 156342 [label="K''" color=blue]
+		153624 -> 153264 [label="K'" color=red]
+		153624 -> 513624 [label="K''" color=blue]
+		561342 -> 516342 [label="K'" color=red]
+		561342 -> 561324 [label="K'" color=red]
+		561324 -> 516324 [label="K'" color=red]
+		561324 -> 563124 [label="K''" color=blue]
+		153264 -> 513264 [label="K''" color=blue]
+		153264 -> 153624 [label="K''" color=blue]
+		563124 -> 536124 [label="K'" color=red]
+		513642 -> 516342 [label="K''" color=blue]
+		513624 -> 513264 [label="K'" color=red]
+		516342 -> 516324 [label="K'" color=red]
+		516342 -> 561342 [label="K''" color=blue]
+		516324 -> 561324 [label="K''" color=blue]
+		513264 -> 531264 [label="K''" color=blue]
+		513264 -> 513624 [label="K''" color=blue]
+		536124 -> 531624 [label="K'" color=red]
+		531264 -> 531624 [label="K''" color=blue]
+		531624 -> 536124 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8871584739211042286.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-8540641604717301517" {
+		156243
+		156423
+		152643
+		154623
+		561243
+		561423
+		154263
+		564123
+		512643
+		514623
+		516243
+		516423
+		514263
+		546123 [color=red]
+		541263
+		541623 [color=blue]
+		156243 -> 152643 [label="K'" color=red]
+		156243 -> 156423 [label="K''" color=blue]
+		156423 -> 154623 [label="K'" color=red]
+		152643 -> 512643 [label="K''" color=blue]
+		152643 -> 156243 [label="K''" color=blue]
+		154623 -> 154263 [label="K'" color=red]
+		154623 -> 514623 [label="K''" color=blue]
+		561243 -> 516243 [label="K'" color=red]
+		561243 -> 561423 [label="K''" color=blue]
+		561423 -> 516423 [label="K'" color=red]
+		561423 -> 564123 [label="K''" color=blue]
+		154263 -> 514263 [label="K''" color=blue]
+		154263 -> 154623 [label="K''" color=blue]
+		564123 -> 546123 [label="K'" color=red]
+		512643 -> 516243 [label="K''" color=blue]
+		514623 -> 514263 [label="K'" color=red]
+		516243 -> 561243 [label="K''" color=blue]
+		516243 -> 516423 [label="K''" color=blue]
+		516423 -> 561423 [label="K''" color=blue]
+		514263 -> 541263 [label="K''" color=blue]
+		514263 -> 514623 [label="K''" color=blue]
+		546123 -> 541623 [label="K'" color=red]
+		541263 -> 541623 [label="K''" color=blue]
+		541623 -> 546123 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-8540641604717301517.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-6654144053378258442" {
+		136254
+		136524
+		132654
+		163524
+		361254
+		361524
+		163254
+		365124
+		312654
+		613524
+		316254
+		316524
+		613254
+		635124 [color=red]
+		631254
+		631524 [color=blue]
+		136254 -> 132654 [label="K'" color=red]
+		136254 -> 136524 [label="K''" color=blue]
+		136524 -> 163524 [label="K''" color=blue]
+		132654 -> 312654 [label="K''" color=blue]
+		132654 -> 136254 [label="K''" color=blue]
+		163524 -> 163254 [label="K'" color=red]
+		163524 -> 613524 [label="K''" color=blue]
+		361254 -> 316254 [label="K'" color=red]
+		361254 -> 361524 [label="K''" color=blue]
+		361524 -> 316524 [label="K'" color=red]
+		361524 -> 365124 [label="K''" color=blue]
+		163254 -> 613254 [label="K''" color=blue]
+		163254 -> 163524 [label="K''" color=blue]
+		365124 -> 635124 [label="K''" color=blue]
+		312654 -> 316254 [label="K''" color=blue]
+		613524 -> 613254 [label="K'" color=red]
+		316254 -> 361254 [label="K''" color=blue]
+		316254 -> 316524 [label="K''" color=blue]
+		316524 -> 361524 [label="K''" color=blue]
+		613254 -> 631254 [label="K''" color=blue]
+		613254 -> 613524 [label="K''" color=blue]
+		635124 -> 631524 [label="K'" color=red]
+		631254 -> 631524 [label="K''" color=blue]
+		631524 -> 635124 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-6654144053378258442.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7470263689296373877" {
+		346125 [color=red]
+		341625
+		341265
+		314625
+		314265 [color=blue]
+		346125 -> 341625 [label="K'" color=red]
+		341625 -> 314625 [label="K'" color=red]
+		341625 -> 346125 [label="K''" color=blue]
+		341265 -> 314265 [label="K'" color=red]
+		341265 -> 341625 [label="K''" color=blue]
+		314625 -> 314265 [label="K'" color=red]
+		314265 -> 341265 [label="K''" color=blue]
+		314265 -> 314625 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7470263689296373877.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-4406037539621418086" {
+		456123 [color=red]
+		451623
+		451263
+		415623
+		415263 [color=blue]
+		456123 -> 451623 [label="K'" color=red]
+		451623 -> 415623 [label="K'" color=red]
+		451623 -> 456123 [label="K''" color=blue]
+		451263 -> 415263 [label="K'" color=red]
+		451263 -> 451623 [label="K''" color=blue]
+		415623 -> 415263 [label="K'" color=red]
+		415263 -> 451263 [label="K''" color=blue]
+		415263 -> 415623 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-4406037539621418086.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7483231840719798486" {
+		246135 [color=red]
+		241635
+		241365
+		214635
+		214365 [color=blue]
+		246135 -> 241635 [label="K'" color=red]
+		241635 -> 214635 [label="K'" color=red]
+		241635 -> 246135 [label="K''" color=blue]
+		241365 -> 214365 [label="K'" color=red]
+		241365 -> 241635 [label="K''" color=blue]
+		214635 -> 214365 [label="K'" color=red]
+		214365 -> 241365 [label="K''" color=blue]
+		214365 -> 214635 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7483231840719798486.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7601147976033205062 {
+		356124 [color=red]
+		351624
+		351264
+		315624
+		315264 [color=blue]
+		356124 -> 351624 [label="K'" color=red]
+		351624 -> 315624 [label="K'" color=red]
+		351624 -> 356124 [label="K''" color=blue]
+		351264 -> 315264 [label="K'" color=red]
+		351264 -> 351624 [label="K''" color=blue]
+		315624 -> 315264 [label="K'" color=red]
+		315264 -> 351264 [label="K''" color=blue]
+		315264 -> 315624 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7601147976033205062.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8430999651695189245 {
+		256134 [color=red]
+		251634
+		251364
+		215634
+		215364 [color=blue]
+		256134 -> 251634 [label="K'" color=red]
+		251634 -> 215634 [label="K'" color=red]
+		251634 -> 256134 [label="K''" color=blue]
+		251364 -> 215364 [label="K'" color=red]
+		251364 -> 251634 [label="K''" color=blue]
+		215634 -> 215364 [label="K'" color=red]
+		215364 -> 251364 [label="K''" color=blue]
+		215364 -> 215634 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8430999651695189245.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_6869193333292016634 {
+		125643
+		125463
+		125436
+		152463
+		152436
+		154236
+		512463
+		512436
+		514236
+		541236 [color=green]
+		125643 -> 125463 [label="K'" color=red]
+		125463 -> 125436 [label="K'" color=red]
+		125463 -> 152463 [label="K''" color=blue]
+		125436 -> 152436 [label="K''" color=blue]
+		152463 -> 152436 [label="K'" color=red]
+		152463 -> 512463 [label="K''" color=blue]
+		152436 -> 512436 [label="K''" color=blue]
+		152436 -> 154236 [label="K''" color=blue]
+		154236 -> 514236 [label="K''" color=blue]
+		512463 -> 512436 [label="K'" color=red]
+		512436 -> 514236 [label="K''" color=blue]
+		514236 -> 541236 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/6869193333292016634.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-735708128666677749" {
+		245631
+		245361
+		245316
+		243561
+		243516
+		243156
+		423561
+		423516
+		423156
+		421356 [color=green]
+		245631 -> 245361 [label="K'" color=red]
+		245361 -> 243561 [label="K'" color=red]
+		245361 -> 245316 [label="K'" color=red]
+		245316 -> 243516 [label="K'" color=red]
+		243561 -> 243516 [label="K'" color=red]
+		243561 -> 423561 [label="K''" color=blue]
+		243516 -> 243156 [label="K'" color=red]
+		243516 -> 423516 [label="K''" color=blue]
+		243156 -> 423156 [label="K''" color=blue]
+		423561 -> 423516 [label="K'" color=red]
+		423516 -> 423156 [label="K'" color=red]
+		423156 -> 421356 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-735708128666677749.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-8792508840974456170" {
+		234651
+		236451
+		236415
+		263451
+		263415
+		263145
+		623451
+		623415
+		623145
+		621345 [color=green]
+		234651 -> 236451 [label="K''" color=blue]
+		236451 -> 236415 [label="K'" color=red]
+		236451 -> 263451 [label="K''" color=blue]
+		236415 -> 263415 [label="K''" color=blue]
+		263451 -> 263415 [label="K'" color=red]
+		263451 -> 623451 [label="K''" color=blue]
+		263415 -> 263145 [label="K'" color=red]
+		263415 -> 623415 [label="K''" color=blue]
+		263145 -> 623145 [label="K''" color=blue]
+		623451 -> 623415 [label="K'" color=red]
+		623415 -> 623145 [label="K'" color=red]
+		623145 -> 621345 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-8792508840974456170.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_6948629344432666778 {
+		135642
+		135462
+		135426
+		153462
+		153426
+		153246
+		513462
+		513426
+		513246
+		531246 [color=green]
+		135642 -> 135462 [label="K'" color=red]
+		135462 -> 135426 [label="K'" color=red]
+		135462 -> 153462 [label="K''" color=blue]
+		135426 -> 153426 [label="K''" color=blue]
+		153462 -> 153426 [label="K'" color=red]
+		153462 -> 513462 [label="K''" color=blue]
+		153426 -> 153246 [label="K'" color=red]
+		153426 -> 513426 [label="K''" color=blue]
+		153246 -> 513246 [label="K''" color=blue]
+		513462 -> 513426 [label="K'" color=red]
+		513426 -> 513246 [label="K'" color=red]
+		513246 -> 531246 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/6948629344432666778.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5879690193608084075 {
+		123654
+		126354
+		126534
+		162354
+		162534
+		165234
+		612354
+		612534
+		615234
+		651234 [color=green]
+		123654 -> 126354 [label="K''" color=blue]
+		126354 -> 162354 [label="K''" color=blue]
+		126354 -> 126534 [label="K''" color=blue]
+		126534 -> 162534 [label="K''" color=blue]
+		162354 -> 612354 [label="K''" color=blue]
+		162354 -> 162534 [label="K''" color=blue]
+		162534 -> 612534 [label="K''" color=blue]
+		162534 -> 165234 [label="K''" color=blue]
+		165234 -> 615234 [label="K''" color=blue]
+		612354 -> 612534 [label="K''" color=blue]
+		612534 -> 615234 [label="K''" color=blue]
+		615234 -> 651234 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5879690193608084075.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1874564528975500654 {
+		134652
+		136452
+		136425
+		163452
+		163425
+		163245
+		613452
+		613425
+		613245
+		631245 [color=green]
+		134652 -> 136452 [label="K''" color=blue]
+		136452 -> 136425 [label="K'" color=red]
+		136452 -> 163452 [label="K''" color=blue]
+		136425 -> 163425 [label="K''" color=blue]
+		163452 -> 163425 [label="K'" color=red]
+		163452 -> 613452 [label="K''" color=blue]
+		163425 -> 163245 [label="K'" color=red]
+		163425 -> 613425 [label="K''" color=blue]
+		163245 -> 613245 [label="K''" color=blue]
+		613452 -> 613425 [label="K'" color=red]
+		613425 -> 613245 [label="K'" color=red]
+		613245 -> 631245 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1874564528975500654.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7983600993868904332" {
+		124653
+		126453
+		126435
+		162453
+		162435
+		164235
+		612453
+		612435
+		614235
+		641235 [color=green]
+		124653 -> 126453 [label="K''" color=blue]
+		126453 -> 126435 [label="K'" color=red]
+		126453 -> 162453 [label="K''" color=blue]
+		126435 -> 162435 [label="K''" color=blue]
+		162453 -> 162435 [label="K'" color=red]
+		162453 -> 612453 [label="K''" color=blue]
+		162435 -> 612435 [label="K''" color=blue]
+		162435 -> 164235 [label="K''" color=blue]
+		164235 -> 614235 [label="K''" color=blue]
+		612453 -> 612435 [label="K'" color=red]
+		612435 -> 614235 [label="K''" color=blue]
+		614235 -> 641235 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7983600993868904332.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_4265591204510986485 {
+		235641
+		235461
+		235416
+		253461
+		253416
+		253146
+		523461
+		523416
+		523146
+		521346 [color=green]
+		235641 -> 235461 [label="K'" color=red]
+		235461 -> 235416 [label="K'" color=red]
+		235461 -> 253461 [label="K''" color=blue]
+		235416 -> 253416 [label="K''" color=blue]
+		253461 -> 253416 [label="K'" color=red]
+		253461 -> 523461 [label="K''" color=blue]
+		253416 -> 253146 [label="K'" color=red]
+		253416 -> 523416 [label="K''" color=blue]
+		253146 -> 523146 [label="K''" color=blue]
+		523461 -> 523416 [label="K'" color=red]
+		523416 -> 523146 [label="K'" color=red]
+		523146 -> 521346 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/4265591204510986485.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8232967764008608753 {
+		345621
+		345261
+		345216
+		342561
+		342516
+		342156
+		324561
+		324516
+		324156
+		321456 [color=green]
+		345621 -> 345261 [label="K'" color=red]
+		345261 -> 342561 [label="K'" color=red]
+		345261 -> 345216 [label="K'" color=red]
+		345216 -> 342516 [label="K'" color=red]
+		342561 -> 324561 [label="K'" color=red]
+		342561 -> 342516 [label="K'" color=red]
+		342516 -> 324516 [label="K'" color=red]
+		342516 -> 342156 [label="K'" color=red]
+		342156 -> 324156 [label="K'" color=red]
+		324561 -> 324516 [label="K'" color=red]
+		324516 -> 324156 [label="K'" color=red]
+		324156 -> 321456 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8232967764008608753.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7672559005340863749" {
+		145632
+		145362
+		145326
+		143562
+		143526
+		143256
+		413562
+		413526
+		413256
+		431256 [color=green]
+		145632 -> 145362 [label="K'" color=red]
+		145362 -> 143562 [label="K'" color=red]
+		145362 -> 145326 [label="K'" color=red]
+		145326 -> 143526 [label="K'" color=red]
+		143562 -> 143526 [label="K'" color=red]
+		143562 -> 413562 [label="K''" color=blue]
+		143526 -> 143256 [label="K'" color=red]
+		143526 -> 413526 [label="K''" color=blue]
+		143256 -> 413256 [label="K''" color=blue]
+		413562 -> 413526 [label="K'" color=red]
+		413526 -> 413256 [label="K'" color=red]
+		413256 -> 431256 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7672559005340863749.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_377034785837703176 {
+		135624
+		135264
+		135246
+		132564
+		132546
+		351246 [color=red]
+		312564
+		312546
+		315246 [color=blue]
+		135624 -> 135264 [label="K'" color=red]
+		135264 -> 132564 [label="K'" color=red]
+		135264 -> 135624 [label="K''" color=blue]
+		135246 -> 132546 [label="K'" color=red]
+		132564 -> 132546 [label="K'" color=red]
+		132564 -> 312564 [label="K''" color=blue]
+		132546 -> 312546 [label="K''" color=blue]
+		132546 -> 135246 [label="K''" color=blue]
+		351246 -> 315246 [label="K'" color=red]
+		312564 -> 312546 [label="K'" color=red]
+		312546 -> 315246 [label="K''" color=blue]
+		315246 -> 351246 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/377034785837703176.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7259844891031331935" {
+		134625
+		134265
+		136245
+		132465
+		132645
+		361245 [color=red]
+		312465
+		312645
+		316245 [color=blue]
+		134625 -> 134265 [label="K'" color=red]
+		134265 -> 132465 [label="K'" color=red]
+		134265 -> 134625 [label="K''" color=blue]
+		136245 -> 132645 [label="K'" color=red]
+		132465 -> 312465 [label="K''" color=blue]
+		132465 -> 132645 [label="K''" color=blue]
+		132645 -> 312645 [label="K''" color=blue]
+		132645 -> 136245 [label="K''" color=blue]
+		361245 -> 316245 [label="K'" color=red]
+		312465 -> 312645 [label="K''" color=blue]
+		312645 -> 316245 [label="K''" color=blue]
+		316245 -> 361245 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7259844891031331935.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_6546677814654815143 {
+		124635
+		124365
+		146235
+		142365
+		142635
+		461235 [color=red]
+		412365
+		412635
+		416235 [color=blue]
+		124635 -> 124365 [label="K'" color=red]
+		124365 -> 142365 [label="K''" color=blue]
+		124365 -> 124635 [label="K''" color=blue]
+		146235 -> 142635 [label="K'" color=red]
+		142365 -> 412365 [label="K''" color=blue]
+		142365 -> 142635 [label="K''" color=blue]
+		142635 -> 412635 [label="K''" color=blue]
+		142635 -> 146235 [label="K''" color=blue]
+		461235 -> 416235 [label="K'" color=red]
+		412365 -> 412635 [label="K''" color=blue]
+		412635 -> 416235 [label="K''" color=blue]
+		416235 -> 461235 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/6546677814654815143.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5760675544770098988 {
+		145623
+		145263
+		145236
+		142563
+		142536
+		451236 [color=red]
+		412563
+		412536
+		415236 [color=blue]
+		145623 -> 145263 [label="K'" color=red]
+		145263 -> 142563 [label="K'" color=red]
+		145263 -> 145623 [label="K''" color=blue]
+		145236 -> 142536 [label="K'" color=red]
+		142563 -> 142536 [label="K'" color=red]
+		142563 -> 412563 [label="K''" color=blue]
+		142536 -> 412536 [label="K''" color=blue]
+		142536 -> 145236 [label="K''" color=blue]
+		451236 -> 415236 [label="K'" color=red]
+		412563 -> 412536 [label="K'" color=red]
+		412536 -> 415236 [label="K''" color=blue]
+		415236 -> 451236 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5760675544770098988.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1394749401407601591 {
+		235614
+		235164
+		235146
+		231564
+		231546
+		251346 [color=red]
+		213564
+		213546
+		215346 [color=blue]
+		235614 -> 235164 [label="K'" color=red]
+		235164 -> 231564 [label="K'" color=red]
+		235164 -> 235614 [label="K''" color=blue]
+		235146 -> 231546 [label="K'" color=red]
+		231564 -> 213564 [label="K'" color=red]
+		231564 -> 231546 [label="K'" color=red]
+		231546 -> 213546 [label="K'" color=red]
+		231546 -> 235146 [label="K''" color=blue]
+		251346 -> 215346 [label="K'" color=red]
+		213564 -> 213546 [label="K'" color=red]
+		213546 -> 215346 [label="K''" color=blue]
+		215346 -> 251346 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1394749401407601591.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_1601624037885035484 {
+		345612
+		345162
+		345126
+		341562
+		341526
+		341256 [color=red]
+		314562
+		314526
+		314256 [color=blue]
+		345612 -> 345162 [label="K'" color=red]
+		345162 -> 341562 [label="K'" color=red]
+		345162 -> 345612 [label="K''" color=blue]
+		345126 -> 341526 [label="K'" color=red]
+		341562 -> 314562 [label="K'" color=red]
+		341562 -> 341526 [label="K'" color=red]
+		341526 -> 314526 [label="K'" color=red]
+		341526 -> 345126 [label="K''" color=blue]
+		341256 -> 314256 [label="K'" color=red]
+		314562 -> 314526 [label="K'" color=red]
+		314526 -> 314256 [label="K'" color=red]
+		314256 -> 341256 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/1601624037885035484.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7224197748879783396 {
+		234615
+		234165
+		236145
+		231465
+		231645
+		261345 [color=red]
+		213465
+		213645
+		216345 [color=blue]
+		234615 -> 234165 [label="K'" color=red]
+		234165 -> 231465 [label="K'" color=red]
+		234165 -> 234615 [label="K''" color=blue]
+		236145 -> 231645 [label="K'" color=red]
+		231465 -> 213465 [label="K'" color=red]
+		231465 -> 231645 [label="K''" color=blue]
+		231645 -> 213645 [label="K'" color=red]
+		231645 -> 236145 [label="K''" color=blue]
+		261345 -> 216345 [label="K'" color=red]
+		213465 -> 213645 [label="K''" color=blue]
+		213645 -> 216345 [label="K''" color=blue]
+		216345 -> 261345 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7224197748879783396.png"/></TD></TR></TABLE>>
+	}
+	subgraph "cluster_-7449158316796306318" {
+		245613
+		245163
+		245136
+		241563
+		241536
+		241356 [color=red]
+		214563
+		214536
+		214356 [color=blue]
+		245613 -> 245163 [label="K'" color=red]
+		245163 -> 241563 [label="K'" color=red]
+		245163 -> 245613 [label="K''" color=blue]
+		245136 -> 241536 [label="K'" color=red]
+		241563 -> 214563 [label="K'" color=red]
+		241563 -> 241536 [label="K'" color=red]
+		241536 -> 214536 [label="K'" color=red]
+		241536 -> 245136 [label="K''" color=blue]
+		241356 -> 214356 [label="K'" color=red]
+		214563 -> 214536 [label="K'" color=red]
+		214536 -> 214356 [label="K'" color=red]
+		214356 -> 241356 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/-7449158316796306318.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_581405955405340283 {
+		125634
+		125364
+		156234
+		152364
+		152634
+		561234 [color=red]
+		512364
+		512634
+		516234 [color=blue]
+		125634 -> 125364 [label="K'" color=red]
+		125364 -> 152364 [label="K''" color=blue]
+		125364 -> 125634 [label="K''" color=blue]
+		156234 -> 152634 [label="K'" color=red]
+		152364 -> 512364 [label="K''" color=blue]
+		152364 -> 152634 [label="K''" color=blue]
+		152634 -> 512634 [label="K''" color=blue]
+		152634 -> 156234 [label="K''" color=blue]
+		561234 -> 516234 [label="K'" color=red]
+		512364 -> 512634 [label="K''" color=blue]
+		512634 -> 516234 [label="K''" color=blue]
+		516234 -> 561234 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/581405955405340283.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_7670242758669885092 {
+		123564
+		123546
+		125346
+		152346
+		512346 [color=green]
+		123564 -> 123546 [label="K'" color=red]
+		123546 -> 125346 [label="K''" color=blue]
+		125346 -> 152346 [label="K''" color=blue]
+		152346 -> 512346 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/7670242758669885092.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_8411610185259161380 {
+		123465
+		123645
+		126345
+		162345
+		612345 [color=green]
+		123465 -> 123645 [label="K''" color=blue]
+		123645 -> 126345 [label="K''" color=blue]
+		126345 -> 162345 [label="K''" color=blue]
+		162345 -> 612345 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/8411610185259161380.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5138968904657766457 {
+		124563
+		124536
+		124356
+		142356
+		412356 [color=green]
+		124563 -> 124536 [label="K'" color=red]
+		124536 -> 124356 [label="K'" color=red]
+		124356 -> 142356 [label="K''" color=blue]
+		142356 -> 412356 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5138968904657766457.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_743098747588296905 {
+		134562
+		134526
+		134256
+		132456
+		312456 [color=green]
+		134562 -> 134526 [label="K'" color=red]
+		134526 -> 134256 [label="K'" color=red]
+		134256 -> 132456 [label="K'" color=red]
+		132456 -> 312456 [label="K''" color=blue]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/743098747588296905.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_2942455812623892850 {
+		234561
+		234516
+		234156
+		231456
+		213456 [color=green]
+		234561 -> 234516 [label="K'" color=red]
+		234516 -> 234156 [label="K'" color=red]
+		234156 -> 231456 [label="K'" color=red]
+		231456 -> 213456 [label="K'" color=red]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/2942455812623892850.png"/></TD></TR></TABLE>>
+	}
+	subgraph cluster_5984855886157059609 {
+		123456 [color=green]
+		label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"><TR><TD><IMG SRC="tmp/5984855886157059609.png"/></TD></TR></TABLE>>
+	}
+	dpi=300
+}
