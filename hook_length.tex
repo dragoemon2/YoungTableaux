@@ -81,6 +81,8 @@
 
 \ytableausetup{centertableaux}
 
+*がついた問題は、発表時間中に出す予定の問題なので、解答は最後に載せている。
+
 \section{フック長公式}
 
 \begin{itembox}[l]{定義}
@@ -153,7 +155,7 @@
 \end{align*}
 である。
 
-\begin{itembox}[l]{問題}
+\begin{itembox}[l]{問題*}
     $f^{(n,n)}$をカタラン数という。$f^{(n,n)} = \frac{(2n)!}{n!(n+1)!}$をフック長公式を用いて示せ。
 \end{itembox}
 
@@ -406,37 +408,17 @@
 \end{proof}
 
 \begin{itembox}[l]{問題20}
-    \begin{enumerate}
-        \item $n$次置換群$S_n$の元で、最大増加列の長さが$l$、最大減少列の長さが$k$であるものの数は$\sum (f^{\lambda})^2$であることを示せ。ただし、$\lambda$は$n$の分割であり、$k$個の行と$l$個の列からなるものをすべて動く。
-        \item $S_{21}$の元で、最大増加列の長さが$15$、最大減少列の長さが$4$であるものの数を求めよ。
-    \end{enumerate}
+    % \begin{enumerate}
+        (1) $n$次置換群$S_n$の元で、最大増加列の長さが$l$、最大減少列の長さが$k$であるものの数は$\sum (f^{\lambda})^2$であることを示せ。ただし、$\lambda$は$n$の分割であり、$k$個の行と$l$個の列からなるものをすべて動く。\\
+        (2*) $S_{21}$の元で、最大増加列の長さが$15$、最大減少列の長さが$4$であるものの数を求めよ。
+    % \end{enumerate}
 \end{itembox}
 
 \subitem (1)
 ロビンソン対応により、$n$次置換群$S_n$の元と同じ形$\lambda \vdash n$の標準タブローの組$(P,Q)$が1対1に対応する。ここで最大増加列の長さは$\lambda$の行数、最大減少列の長さは$\lambda$の列数である。したがって、等式が成り立つ。
 
 \subitem (2)
-$21$の分割のうち、$15$個の行と$4$個の列からなるものは$(15,1,1,1)$に3つの箱を加えてできるヤング図形であって、次の3通りがある。
-\begin{enumerate}
-    \item $\lambda^{(1)} = (15,4,1,1) = \ydiagram{15,4,1,1}$
-    \item $\lambda^{(2)} = (15,3,2,1) = \ydiagram{15,3,2,1}$
-    \item $\lambda^{(1)} = (15,2,2,2) = \ydiagram{15,2,2,2}$
-\end{enumerate}
-
-それぞれ、$l_i = \lambda_i + 4 - i$を計算すると、
-\begin{align*}
-    l^{(1)} &= (18,6,2,1) \\
-    l^{(2)} &= (18,5,3,1) \\
-    l^{(3)} &= (18,4,3,2) \\
-\end{align*}
-であるから、
-\begin{align*}
-    f^{(15,4,1,1)} &= \frac{21!(18-6)(18-2)(18-1)(6-2)(6-1)(2-1)}{18!6!2!1!} = 361760 \\
-    f^{(15,3,2,1)} &= \frac{21!(18-5)(18-3)(18-1)(5-3)(5-1)(3-1)}{18!5!3!1!} = 587860 \\
-    f^{(15,2,2,2)} &= \frac{21!(18-4)(18-3)(18-2)(4-3)(4-2)(3-2)}{18!4!3!2!} = 186200 
-\end{align*}
-であるから、求める数は$361760^2 + 587860^2 + 186200^2 = 511120117200$である。
-
+最後に載せてある。
 
 
 \begin{itembox}[l]{問題21}
@@ -549,12 +531,13 @@ $\lambda$が2行以下であるときを考えればよいが、この条件を�
 \end{proof}
 
 \newpage
-\section{カタラン数と置換}
+\section{123-avoiding permutation}
 
+ここからは本には載っていないが、4章の内容を使って私が独自に考えた話題について述べる。
 この節の目標は、次の定理を証明することである。
 
 \begin{itembox}[l]{定理}
-    長さ$3$の増加部分列を持たない$n$の置換の個数はカタラン数$\displaystyle \frac{(2n)!}{n!(n+1)!}$である。
+    長さ$3$の増加部分列を持たない置換のことを123-avoiding permutationという。$n$次の置換のうち、123-avoiding permutationの個数はカタラン数$\displaystyle \frac{(2n)!}{n!(n+1)!}$である。
 \end{itembox}
 
 これの最も直感的な証明は、次のようなものである: $\sigma \in S_n$に対し、対応するDyckパスを次のように定める。$n\times n$のマス目を用意し、$i=1,2,\cdots,n$に対し$(i,\sigma(i))$を黒で塗りつぶす。
@@ -595,44 +578,19 @@ $\lambda$が2行以下であるときを考えればよいが、この条件を�
 このとき、パスはDyckパスになり、これが$S_n$の元とDyckパスの間の全単射を与える。
 
 この方法は直感的であるが、厳密に証明を補おうとすると難しい。一方で、RSK対応とフック長公式を用いて、愚直に個数を求めることもできる。
-\begin{itembox}[l]{補題}
-    長さ$3$の増加部分列を持たない$n$の置換の個数は
+証明の第一段階を問題として示す。
+\begin{itembox}[l]{問題*}
+    $n$次の123-avoiding permutationの個数は
     \begin{align*}
         \sum_{k=0}^{\lfloor n/2 \rfloor} \(\frac{n! (n-2k+1)}{(n-k+1)! k!}\)^2
     \end{align*}   
-    である。
+    であることを示せ。
 \end{itembox}
 
-\begin{proof}
-    ロビンソン対応より、$n$の置換の中で長さ$3$の増加部分列を持たないものは、行数が$2$以下である$n$の分割$\lambda$を形にもつ標準タブローの組$(P,Q)$と一対一に対応する。$P$の2行目の列数を$k$とすると、$P$の1行目の列数は$n-k$であり、$k$の動く範囲は$0 \leq k \leq \lfloor n/2 \rfloor$である。したがって、求める数は
-    \begin{align*}
-        \sum_{k=0}^{\lfloor n/2 \rfloor} (f^{(n-k,k)})^2
-    \end{align*}
-    である。フック長公式より、
-    \begin{align*}
-        f^{(n-k,k)} = \frac{n!}{H_{(n-k,k)}}
-    \end{align*}
-    である。分割$(n-k,k)$にフック長を書き込むと、
-    \begin{align*}
-        \ytableausetup{boxsize=3em}
-        \begin{ytableau}
-            \scriptstyle n-k+1 & \scriptstyle n-k & \cdots & \scriptstyle n-2k+2 & \scriptstyle n-2k & \cdots & 1 \\
-            k & k-1 & \cdots & 1
-        \end{ytableau}
-        \ytableausetup{boxsize=1.5em}
-    \end{align*}
-    であるから、
-    \begin{align*}
-        H_{(n-k,k)} = \frac{(n-k+1)! k!}{n-2k+1}
-    \end{align*}
-    である。したがって、求める数は
-    \begin{align*}
-        \sum_{k=0}^{\lfloor n/2 \rfloor} \(\frac{n! (n-2k+1)}{(n-k+1)! k!}\)^2
-    \end{align*}
-\end{proof}
+これを使えばあとはヤング図形とは関係ない。ただの計算である。
 
 \begin{itembox}[l]{定理}
-    長さ$3$の増加部分列を持たない$n$の置換の個数はカタラン数$\displaystyle \frac{(2n)!}{n!(n+1)!}$である。
+    $n$次の123-avoiding permutationの個数はカタラン数$\displaystyle \frac{(2n)!}{n!(n+1)!}$である。
 \end{itembox}
 
 
@@ -686,6 +644,126 @@ $\lambda$が2行以下であるときを考えればよいが、この条件を�
         &= \frac{(2n)!}{n!(n+1)!}
     \end{align*}
     以上より、長さ$3$の増加部分列を持たない$n$の置換の個数は$\displaystyle \frac{(2n)!}{n!(n+1)!}$である。
+\end{proof}
+
+私は現在、この定理の結果を一般化することを試みている。すなわち、正の整数$n,k$に対して、長さ$k+1$の増加部分列を持たない$n$の置換の個数を求めることである。
+閉じた式での一般項は見つかっていないが、次のような公式がRSK対応とフック長公式から直ちに導かれる。
+
+\begin{itembox}[l]{定理}
+    長さ$k+1$の増加部分列を持たない$n$の置換の個数は$m := n + \frac{k(k-1)}{2}$として、
+    \begin{align*}
+        \frac{n!^2}{k! m!^2} \sum_{l_1+l_2+\cdots+l_k = m} \( \frac{m!}{l_1! l_2! \cdots l_k!} \Delta(l_1, l_2, \cdots, l_k) \)^2
+    \end{align*}
+    である。ただし、$\Delta(l_1, l_2, \cdots, l_k) := \prod_{i<j} (l_i - l_j)$であり、和は$l_1, l_2, \ldots, l_k$が非負整数であって$l_1 + l_2 + \cdots + l_k = m$を満たすものをすべて取る。
+\end{itembox}
+
+すなわち、${(\text{多項係数} \times \text{差積})}^2$の和を求めることに帰着される。
+
+\begin{proof}
+    ロビンソン対応より、$n$の置換の中で長さ$k+1$の増加部分列を持たないものは、行数が$k$以下である$n$の分割$\lambda$を形にもつ標準タブローの組$(P,Q)$と一対一に対応する。$\lambda = (\lambda_1, \lambda_2, \ldots, \lambda_k)$とすれば、
+    \begin{align*}
+        \sum_{\substack{\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_k \geq 0 \\ \lambda_1 + \cdots + \lambda_k = n}} (f^{(\lambda_1, \lambda_2, \ldots, \lambda_k)})^2
+    \end{align*}
+    である。フック長公式の別表現より、$l = (l_1, l_2, \ldots, l_k)$を$l_i = \lambda_i + k - i$で定めると、
+    \begin{align*}
+        f^{(\lambda_1, \lambda_2, \ldots, \lambda_k)} = \frac{n!}{l_1! l_2! \cdots l_k!} \Delta(l_1, l_2, \cdots, l_k)
+    \end{align*}
+    である。したがって、求める数は
+    \begin{align*}
+        \sum_{\substack{l_1 > l_2 > \cdots >l_k \geq 0 \\l_1+\cdots+l_k = m}} \( \frac{n!}{l_1! l_2! \cdots l_k!} \Delta(l_1, l_2, \cdots, l_k) \)^2
+    \end{align*}
+    である。ここで、シグマの中身$\( \frac{m!}{l_1! l_2! \cdots l_k!} \Delta(l_1, l_2, \cdots, l_k) \)^2$は$l_1, l_2, \ldots, l_k$についての対称式であり、$l_i = l_j$なる$i < j$が存在するとき$0$であることに注意すれば、次のように変形できる。
+    \begin{align*}
+        \frac{1}{k!} \sum_{l_1+l_2+\cdots+l_k = m} \( \frac{n!}{l_1! l_2! \cdots l_k!} \Delta(l_1, l_2, \cdots, l_k) \)^2
+    \end{align*}
+    したがって、定理が示された。
+\end{proof}
+
+\newpage
+\section{問題の解答}
+
+\begin{itembox}[l]{問題}
+    $f^{(n,n)}$をカタラン数という。$f^{(n,n)} = \displaystyle \frac{(2n)!}{n!(n+1)!}$をフック長公式を用いて示せ
+\end{itembox}
+
+\begin{proof}
+    $(n,n)$にフック長を書き込むと、
+    \begin{align*}
+        \ytableausetup{boxsize=2.5em}
+        \begin{ytableau}
+            \scriptstyle n+1 & n & \cdots & 3 & 2 \\
+            n & n-1 & \cdots & 2 & 1
+        \end{ytableau}
+        \ytableausetup{boxsize=1.5em}
+    \end{align*}
+    となる。よって、フック長の積は$n!(n+1)!$であるから、
+    \begin{align*}
+        f^{(n,n)} = \frac{(2n)!}{n!(n+1)!}
+    \end{align*}
+\end{proof}
+
+\newpage
+
+\begin{itembox}[l]{問題20(2)}
+    $S_21$の元で、最大増加列の長さが$15$、最大減少列の長さが$4$であるものの数を求めよ。
+\end{itembox}
+
+$21$の分割のうち、$15$個の行と$4$個の列からなるものは$(15,1,1,1)$に3つの箱を加えてできるヤング図形であって、次の3通りがある。
+\begin{enumerate}
+    \item $\lambda^{(1)} = (15,4,1,1) = \ydiagram{15,4,1,1}$
+    \item $\lambda^{(2)} = (15,3,2,1) = \ydiagram{15,3,2,1}$
+    \item $\lambda^{(1)} = (15,2,2,2) = \ydiagram{15,2,2,2}$
+\end{enumerate}
+
+それぞれ、$l_i = \lambda_i + 4 - i$を計算すると、
+\begin{align*}
+    l^{(1)} &= (18,6,2,1) \\
+    l^{(2)} &= (18,5,3,1) \\
+    l^{(3)} &= (18,4,3,2) \\
+\end{align*}
+であるから、
+\begin{align*}
+    f^{(15,4,1,1)} &= \frac{21!(18-6)(18-2)(18-1)(6-2)(6-1)(2-1)}{18!6!2!1!} = 361760 \\
+    f^{(15,3,2,1)} &= \frac{21!(18-5)(18-3)(18-1)(5-3)(5-1)(3-1)}{18!5!3!1!} = 587860 \\
+    f^{(15,2,2,2)} &= \frac{21!(18-4)(18-3)(18-2)(4-3)(4-2)(3-2)}{18!4!3!2!} = 186200 
+\end{align*}
+であるから、求める数は$361760^2 + 587860^2 + 186200^2 = 511120117200$である。
+\newpage
+
+\begin{itembox}[l]{問題}
+    $n$次の123-avoiding permutationの個数は
+    \begin{align*}
+        \sum_{k=0}^{\lfloor n/2 \rfloor} \(\frac{n! (n-2k+1)}{(n-k+1)! k!}\)^2
+    \end{align*}   
+    であることを示せ。
+\end{itembox}
+
+\begin{proof}
+    ロビンソン対応より、$n$の置換の中で長さ$3$の増加部分列を持たないものは、行数が$2$以下である$n$の分割$\lambda$を形にもつ標準タブローの組$(P,Q)$と一対一に対応する。$P$の2行目の列数を$k$とすると、$P$の1行目の列数は$n-k$であり、$k$の動く範囲は$0 \leq k \leq \lfloor n/2 \rfloor$である。したがって、求める数は
+    \begin{align*}
+        \sum_{k=0}^{\lfloor n/2 \rfloor} (f^{(n-k,k)})^2
+    \end{align*}
+    である。フック長公式より、
+    \begin{align*}
+        f^{(n-k,k)} = \frac{n!}{H_{(n-k,k)}}
+    \end{align*}
+    である。分割$(n-k,k)$にフック長を書き込むと、
+    \begin{align*}
+        \ytableausetup{boxsize=3em}
+        \begin{ytableau}
+            \scriptstyle n-k+1 & \scriptstyle n-k & \cdots & \scriptstyle n-2k+2 & \scriptstyle n-2k & \cdots & 1 \\
+            k & k-1 & \cdots & 1
+        \end{ytableau}
+        \ytableausetup{boxsize=1.5em}
+    \end{align*}
+    であるから、
+    \begin{align*}
+        H_{(n-k,k)} = \frac{(n-k+1)! k!}{n-2k+1}
+    \end{align*}
+    である。したがって、求める数は
+    \begin{align*}
+        \sum_{k=0}^{\lfloor n/2 \rfloor} \(\frac{n! (n-2k+1)}{(n-k+1)! k!}\)^2
+    \end{align*}
 \end{proof}
 
 

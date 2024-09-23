@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.19)  18 SEP 2024 10:21
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2024.3.19)  21 SEP 2024 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,50 +490,50 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 78.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 84.
+(Font)              scaled to size 13.83836pt on input line 86.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 84.
+(Font)              scaled to size 13.83836pt on input line 86.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 84.
+(Font)              scaled to size 13.83836pt on input line 86.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 84.
+(Font)              scaled to size 13.83836pt on input line 86.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 87.
+(Font)              scaled to size 6.72699pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 87.
+(Font)              scaled to size 4.805pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 87.
+(Font)              scaled to size 9.60999pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 87.
+(Font)              scaled to size 6.72699pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 87.
+(Font)              scaled to size 4.805pt on input line 89.
 [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 170.
+(Font)              scaled to size 9.60999pt on input line 172.
 [2]
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 188.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 188.
+(Font)              scaled to size 9.60999pt on input line 190.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 188.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 188.
-[3] [4] [5] [6] [7] [8] [9] [10] [11]
+(Font)              scaled to size 9.60999pt on input line 190.
+[3] [4] [5] [6] [7] [8] [9] [10]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 525.
+(Font)              scaled to size 6.72699pt on input line 507.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 525.
-[12] [13] [14] [15] [16] [17] (out/hook_length.aux) ) 
+(Font)              scaled to size 4.805pt on input line 507.
+[11] [12] [13] [14] [15] [16] [17] [18] [19] (out/hook_length.aux) ) 
 Here is how much of TeX's memory you used:
  15452 strings out of 478741
  321537 string characters out of 5860982
- 609465 words of memory out of 5000000
+ 607465 words of memory out of 5000000
  33565 multiletter control sequences out of 15000+600000
  489930 words of font info for 120 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  84i,15n,89p,447b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/hook_length.dvi (17 pages, 81708 bytes).
+Output written on out/hook_length.dvi (19 pages, 90080 bytes).
