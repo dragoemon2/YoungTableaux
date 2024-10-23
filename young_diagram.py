@@ -172,8 +172,11 @@ class YoungDiagram:
     
     def __eq__(self, other):
         return self.division == other.division
+    
+    def __str__(self):
+        return f'{self.__class__.__name__}({self.division})'
         
-    def __str__(self, fill='■'):
+    def to_text(self, fill='■'):
         result = ''
         for i in range(len(self.division)):
             result += fill * self.division[i] + '\n'
@@ -397,8 +400,9 @@ class NumberedYoungDiagram(YoungDiagram):
         
     def __eq__(self, other):
         return self.numbers == other.numbers
+
         
-    def __str__(self):
+    def to_text(self):
         max_len = max([len(str(i)) for line in self.numbers for i in line])
         result = ''
         for line in self.numbers:
@@ -407,6 +411,17 @@ class NumberedYoungDiagram(YoungDiagram):
             result = result[:-1] + '\n'
         return result[:-1]
     
+    def __str__(self):
+        if not self.numbers:
+            return f'{self.__class__.__name__}([])'
+        
+        result = f'{self.__class__.__name__}([\n'
+        for line in self.numbers:
+            result += '    ' + str(line) + ',\n'
+        result = result[:-2] # 末尾のカンマと改行を削除
+        result += '\n])' # 末尾に改行を追加
+        return result
+
     def __repr__(self):
         return f'{self.__class__.__name__}({self.numbers})'
     

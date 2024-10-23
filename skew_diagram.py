@@ -1,10 +1,35 @@
-import copy
-
 from young_tableaux.young_diagram import YoungDiagram, YoungTableaux
 
 
-def _enumerate_littlewood_richardson_tableaux__recursive(box_places: list[tuple[int,int]], current_word: list[int]):
-    pass
+def _enumerate_littlewood_richardson_tableaux__recursive(box_places: list[tuple[int,int]], weight: list[int], current_word: list[int], current_weight: list[int], numbers: list[list[int]]):
+    index = len(current_word)
+    if index == sum(weight):
+        yield SkewTableaux(numbers)
+        return
+    
+    current_i, current_j = box_places[index]
+    
+    for k in range(len(weight)):
+        if k > 0 and current_weight[k-1] <= current_weight[k]:
+            continue # kを追加すると逆格子じゃなくなる
+
+        if current_weight[k] >= weight[k]:
+            continue # kを追加すると重みを超える
+
+        if current_j+1 < len(numbers[current_i]) and k+1 > numbers[current_i][current_j+1]:
+            continue # kを追加すると右に広義単調増加じゃなくなる
+
+        if current_i > 0 and numbers[current_i-1][current_j] >= k+1:
+            continue # kを追加すると下に狭義単調増加じゃなくなる
+
+        # 次のステップのための情報を作成
+        new_numbers = [line.copy() for line in numbers]
+        new_numbers[current_i][current_j] = k+1
+        new_word = current_word + [k+1]
+        new_weight = current_weight.copy()
+        new_weight[k] += 1
+
+        yield from _enumerate_littlewood_richardson_tableaux__recursive(box_places, weight, new_word, new_weight, new_numbers) # 再帰
 
 class SkewDiagram:
     def __init__(self, diagram1: YoungDiagram, diagram2: YoungDiagram):
@@ -49,8 +74,11 @@ class SkewDiagram:
                 if self.diagram1.division[i] != other.diagram1.division[i]:
                     return False
         return True
-
+    
     def __str__(self):
+        return f'{self.__class__.__name__}({self.diagram1}, {self.diagram2})'
+
+    def to_text(self):
         result = ''
         for i in range(len(self.diagram1.division)):
             if i < len(self.diagram2.division):
@@ -64,24 +92,84 @@ class SkewDiagram:
 
     def enumerate_littlewood_richardson_tableaux_with(self, weight: list[int] | YoungDiagram):
         '''
-        TODO: 与えられた重みに対するLittlewood-Richardson skew tableauxを列挙する
+        与えられた重みに対するLittlewood-Richardson skew tableauxを列挙する
         '''
         if isinstance(weight, YoungDiagram):
             weight = weight.division
         
-        if len(weight) != self.n:
+        if sum(weight) != self.n:
             return
         
+        # 右上から順に箱の位置を列挙
         box_places = []
-        for i in range(self.diagram1.division):
-            for j in range(self.diagram1.division[i]):
+        for i in range(len(self.diagram1.division)):
+            j_end = 0 if i >= len(self.diagram2.division) else self.diagram2.division[i]
+            j_start = self.diagram1.division[i]
+            for j in range(j_start-1, j_end-1, -1):
                 box_places.append((i, j))
 
+        yield from _enumerate_littlewood_richardson_tableaux__recursive(box_places, weight, [], [0 for _ in range(len(weight))], [[0 for _ in range(self.diagram1.division[i])] for i in range(len(self.diagram1.division))])
+
+    def enumerate_littlewood_richardson_tableaux(self):
+        '''
+        Littlewood-Richardson skew tableauxを列挙する
+        '''
+        for weight in YoungDiagram.enumerate_diagrams(self.n):
+            yield from self.enumerate_littlewood_richardson_tableaux_with(weight)
+
+    
     def __hash__(self):
         return hash((self.diagram1, self.diagram2))
     
+    
+    def assign_number_with_word(self, word: list[int]):
+        if len(word) != self.n:
+            raise ValueError("length of word mismatch")
+        word = word.copy()
+        
+        numbers = []
+        for i in range(len(self.diagram1.division), -1, -1):
+            line = []
+            for j in range(self.diagram2.division[i], self.diagram1.division[i]):
+                line.append(word.pop(0))
+            numbers.append([0] * (self.diagram2.division[i]) + line)
+
+        return NumberedSkewDiagram(numbers)
+    
+    @staticmethod
+    def from_up_down_sequence(sequence: str):
+        '''
+        上下列からSkewDiagramを生成する
+        '''
+        # u, dを+,-に変換
+        if 'u' in sequence or 'd' in sequence:
+            sequence = sequence.replace('u', '+').replace('d', '-')
+        
+        if not all(i == '+' or i == '-' for i in sequence):
+            raise ValueError("Invalid sequence. please use '+' or '-'")
+
+        height = sequence.count('+') + 1
+        
+        diagram1 = [0] * height
+        diagram2 = [0] * (height-1)
+
+        i, j = height-1, 0
+        diagram1[i] = 1
+        for s in sequence:
+            if s == '+':
+                j += 1
+                diagram1[i] += 1
+            else:
+                i -= 1
+                diagram2[i] = j
+                diagram1[i] = j+1
+
+        return SkewDiagram(YoungDiagram(diagram1), YoungDiagram(diagram2))
+        
 class NumberedSkewDiagram(SkewDiagram):
     def __init__(self, numbers: list[list[int]]):
+        # Noneを0に変換
+        numbers = [[0 if i is None else i for i in line] for line in numbers]
         diagram1 = YoungDiagram([len(line) for line in numbers])
         diagram2 = YoungDiagram([line.count(0) for line in numbers if line[0] == 0])
         super().__init__(diagram1, diagram2)
@@ -95,6 +183,17 @@ class NumberedSkewDiagram(SkewDiagram):
             yield i, ((j, self.numbers[i][j]) for j in range(self.diagram2.division[i], self.diagram1.division[i]))
 
     def __str__(self):
+        if not self.numbers:
+            return f'{self.__class__.__name__}([])'
+        
+        result = f'{self.__class__.__name__}([\n'
+        for line in self.numbers:
+            result += '    ' + str(line) + ',\n'
+        result = result[:-2] # 末尾のカンマと改行を削除
+        result += '\n])' # 末尾に改行を追加
+        return result
+    
+    def to_text(self):
         max_len = max([len(str(i)) for line in self.numbers for i in line])
         result = ''
         for line in self.numbers:
@@ -104,6 +203,14 @@ class NumberedSkewDiagram(SkewDiagram):
             result = result[:-1] + '\n'
         return result[:-1]
     
+    def latex(self):
+        text = ''
+        text += r'\begin{ytableau}' + '\n'
+        for line in self.numbers:
+            text += '    ' + ' & '.join([str(i) if i != 0 else r'\none' for i in line]) + r' \\' + '\n'
+        text += r'\end{ytableau}'
+        return text
+
     def __repr__(self):
         return f'{self.__class__.__name__}({self.numbers})'
 
@@ -154,7 +261,7 @@ class SkewTableaux(NumberedSkewDiagram):
         '''
         cornerをスライドさせる
         '''
-        new_numbers = copy.deepcopy(self.numbers)
+        new_numbers = [line.copy() for line in self.numbers]
         while True:
             i, j = corner
             if self.include((i+1, j)) and not self.include((i, j+1)):
@@ -190,4 +297,6 @@ class SkewTableaux(NumberedSkewDiagram):
             corner = next(skew_tableaux.diagram2.enumerate_corners())
             skew_tableaux = skew_tableaux.slide(corner)
         return YoungTableaux(skew_tableaux.numbers)
+    
+    
     
