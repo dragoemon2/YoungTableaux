@@ -1,6 +1,7 @@
 import itertools
 import math
 from functools import lru_cache
+from young_tableaux.finite_sequence import FiniteSequence
 
 import more_itertools
 
@@ -100,11 +101,14 @@ def _expand_division_iter(division, p, max_division=None):
             new_division.pop()
         yield new_division
 
-class YoungDiagram:
+
+
+class YoungDiagram(FiniteSequence):
     '''
     ヤング図形を表すクラス
     '''
     def __init__(self, division : list[int]):
+        super().__init__(division)
         if isinstance(division, YoungDiagram):
             division = division.division
         self.division = division
